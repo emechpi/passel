@@ -1,0 +1,126 @@
+
+.card {
+    border: 1px solid #EFF2F7;
+    @include border-radius($card-border-radius);
+
+    > .list-group:first-child {
+        .list-group-item:first-child {
+            @include border-top-radius($card-border-radius);
+        }
+    }
+
+    > .list-group:last-child {
+        .list-group-item:last-child {
+            @include border-bottom-radius($card-border-radius);
+        }
+    }
+    .card-badge {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+    }
+}
+
+.card-body {
+    padding: 1.5rem;
+    color: $card-color;
+    .card-holder {
+        background: white;
+        padding: 1rem;
+    }
+}
+
+.card-title {
+    margin-bottom: 1rem;
+}
+
+.card-subtitle {
+    margin-top: -0.5rem;
+}
+
+.card-link {
+    + .card-link {
+        margin-left: 1.5rem;
+    }
+}
+
+
+.card-header {
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    border-bottom: 1px solid #EFF2F7;
+
+    &:first-child {
+        border-radius: 0.375rem 0.375rem 0 0;
+    }
+}
+
+.card-footer {
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    border-top: 1px solid #EFF2F7;
+
+    &:last-child {
+        border-radius: 0 0 0.375rem 0.375rem;
+    }
+}
+
+
+.card-header-tabs {
+    margin-right: -0.75rem;
+    margin-bottom: -1rem;
+    margin-left: -0.75rem;
+    border-bottom: 0;
+}
+
+.card-header-pills {
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.card-img {
+    border-radius: 0.375rem;
+}
+
+.card-img-top {
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+}
+
+.card-img-bottom {
+    border-bottom-right-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+}
+
+
+.card-columns {
+    .card {
+        margin-bottom: 1rem;
+    }
+}
+
+.badge-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .badge {
+        cursor: pointer;
+        font-size: 0.65rem;
+        border-radius: 1.5*$border-radius;
+        margin-bottom: 0.5rem;
+        margin-left: 0.3rem;
+    }
+}
+
+.product-card {
+    .price-box {
+        direction: rtl;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        padding: 0.4rem;
+        background: $white;
+        box-shadow: $box-shadow;
+        border-radius: $border-radius;
+    }
+}

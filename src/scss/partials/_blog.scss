@@ -1,0 +1,32 @@
+.blog-header-bg {
+    background-size: cover;
+    background-position: center center;
+    min-height: 500px;
+    .shape-container {
+        height: 300px;
+    }
+    @include mobile-landscape {
+        min-height: 300px;
+        .shape-container {
+            height: 100px;
+        }
+    }
+    @include mobile {
+        min-height: 300px;
+        .shape-container {
+            height: 100px;
+        }
+    }
+}
+
+.grid.blog-grid {
+        .grid-item {
+            height: 200px;
+            &.blog-item--height2 { height: calc(400px + 1rem) }
+        }
+        .grid-sizer,
+        .grid-item {
+            width: 25%;
+            &.blog-item--width2 { width:50%}
+        }
+}

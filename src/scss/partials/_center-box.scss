@@ -1,0 +1,11 @@
+.center-box{
+    .center-box-logo {
+        width: 35%;
+        @include mobile-landscape {
+            width: 50%;
+        }
+        @include mobile {
+            width: 50%;
+        }
+    }
+}

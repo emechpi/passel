@@ -1,0 +1,23 @@
+.haeder-top-margin {
+    margin-top: calc(65px + 1rem);
+    @include mobile-landscape {
+        margin-top: calc(55px + 1rem);
+    }
+    @include mobile {
+        margin-top: calc(55px + 1rem);
+    }
+}
+.adjustment-size-box {
+    .adjustment-size-box-tabs {
+        a {
+            border-radius: 0;
+            margin: 0 !important;
+        }
+    }
+    .sizes-list-group{
+        max-height: 300px;
+        overflow-y: auto;
+    }
+    @include scrollbar('.sizes-list-group', $body-color , '5px');
+}
+

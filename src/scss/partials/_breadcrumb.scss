@@ -1,0 +1,14 @@
+.breadcrumb {
+  margin-bottom: 0;
+  background-color: transparent;
+  flex-direction: row-reverse;
+  font-size: 0.75rem;
+}
+
+.breadcrumb-item:not(:last-child)::before {
+  color: #E0E6ED;
+}
+
+.breadcrumb-item.active {
+  color: $gray-600;
+}

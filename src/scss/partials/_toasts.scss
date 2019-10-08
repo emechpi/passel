@@ -1,0 +1,99 @@
+.toast {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $toast-item-padding;
+    font-size: $font-size-sm;
+    border-radius: $border-radius;
+    border-left: 3px solid;
+    background: $toast-bg-color;
+    &.show {
+        visibility: visible;
+        -webkit-animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 2s, fadeout 0.5s 2.5s;
+        animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 4s, fadeout 0.5s 4.5s;
+        .toast-body {
+            .toast-message {
+                visibility: visible;
+                animation: fadein 3.5s, fadeout 0.5s 4s;
+            }
+        }
+    }
+    .toast-body {
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        overflow: hidden;
+        white-space: nowrap;
+        height: 100%;
+        padding: 0;
+        .toast-message {
+            visibility: hidden;
+            animation: fadeout 0.5s 1s;
+            color: white;
+            margin-right: 5px;
+        }
+    }
+    &.has-icon {
+        .icon-place {
+            width: 26px;
+            height: 26px;
+            float: right;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+    }
+    &.success {
+        border-left-color: $toast-success-color;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes expand {
+    from {min-width: 50px}
+    to {min-width: 320px}
+}
+
+@keyframes expand {
+    from {min-width: 50px}
+    to {min-width: 320px}
+}
+@-webkit-keyframes stay {
+    from {min-width: 320px}
+    to {min-width: 320px}
+}
+
+@keyframes stay {
+    from {min-width: 320px}
+    to {min-width: 320px}
+}
+@-webkit-keyframes shrink {
+    from {min-width: 320px;}
+    to {min-width: 50px;}
+}
+
+@keyframes shrink {
+    from {min-width: 320px;}
+    to {min-width: 50px;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 60px; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 60px; opacity: 0;}
+}

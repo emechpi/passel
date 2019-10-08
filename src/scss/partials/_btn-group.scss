@@ -1,0 +1,78 @@
+
+.dropdown-toggle-split {
+    padding-right: 1.3125rem;
+    padding-left: 1.3125rem;
+}
+
+.btn-sm + .dropdown-toggle-split {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+}
+
+.btn-lg + .dropdown-toggle-split {
+    padding-right: 1.40625rem;
+    padding-left: 1.40625rem;
+}
+
+.btn-group.show .dropdown-toggle {
+    box-shadow: $btn-active-box-shadow;
+
+    &.btn-link {
+        box-shadow: none;
+    }
+}
+
+.input-group-text {
+    padding: 0.75rem 1.25rem;
+    color: #C0CCDA;
+    background-color: #FAFBFE;
+    border: 1px solid #E0E6ED;
+}
+
+.input-group-lg > .form-control:not(textarea),
+.input-group-lg > .custom-select {
+    height: calc(1.5em + 2rem + 2px);
+}
+
+.input-group-lg > .form-control,
+.input-group-lg > .custom-select,
+.input-group-lg > .input-group-prepend > .input-group-text,
+.input-group-lg > .input-group-append > .input-group-text,
+.input-group-lg > .input-group-prepend > .btn,
+.input-group-lg > .input-group-append > .btn {
+    padding: 1rem 1.875rem;
+    border-radius: 0.375rem;
+}
+
+.input-group-sm > .form-control:not(textarea),
+.input-group-sm > .custom-select {
+    height: calc(1.5em + 1rem + 2px);
+}
+
+.input-group-sm > .form-control,
+.input-group-sm > .custom-select,
+.input-group-sm > .input-group-prepend > .input-group-text,
+.input-group-sm > .input-group-append > .input-group-text,
+.input-group-sm > .input-group-prepend > .btn,
+.input-group-sm > .input-group-append > .btn {
+    padding: 0.5rem 1.25rem;
+}
+
+.input-group-lg > .custom-select,
+.input-group-sm > .custom-select {
+    padding-right: 2.25rem;
+}
+
+.custom-control {
+    min-height: 1.7rem;
+    padding-left: 1.75rem;
+}
+
+.btn-group.show .dropdown-toggle {
+    box-shadow: $btn-active-box-shadow;
+}
+
+.btn-group.show .dropdown-toggle.btn-link {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

@@ -1,0 +1,39 @@
+.card-summary {
+    .nav-pills .nav-item .nav-link {
+        &.active:not(.passed) {
+            @extend .shadow-primary-lg;
+            &+ a {
+                color: $dark !important;
+            }
+        }
+    }
+}
+.cart-table {
+    tbody tr {
+        th img{
+            max-width: 80px;
+        }
+        .count .counter-buttons .btn {
+            font-size: 0.8rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            line-height: 1.5rem;
+        }
+        &:first-child {
+            td:first-child::after {
+                border-top: none;
+            }
+            th::after {
+                border-top: none;
+            }
+        }
+    }
+}
+.cart-table-thead {
+    th:first-child {
+        border-radius: 1.5rem 0 0 1.5rem;
+    }
+    th:last-child {
+        border-radius: 0 1.5rem 1.5rem 0;
+    }
+}

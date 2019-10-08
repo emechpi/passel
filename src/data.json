@@ -1,0 +1,324 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "src": "./dist/images/1.jpg",
+            "title": "بیرون پوش",
+            "height": "grid-item--height2",
+            "width": "",
+            "price": "3000000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 2,
+            "src": "./dist/images/2.jpg",
+            "title": "دامن و شلوار",
+            "height": "grid-item--height4",
+            "width": "",
+            "price": "2200000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "src": "./dist/images/3.jpg",
+            "title": "شـال و روســـری شـال گـردن و کـلاه",
+            "height": "grid-item--height2",
+            "width": "",
+            "price": "1100000",
+            "description": "اگر به\u200C دنبال شیک ترین و بهترین مدل لباس مجلسی هستید تا در مهمانی و عروسی ها حسابی بدرخشید، کلیک کنید."
+        },
+        {
+            "id": 4,
+            "src": "./dist/images/4.jpg",
+            "title": "اکسسوری کلاه گیس",
+            "height": "grid-item--height5",
+            "width": "",
+            "price": "800000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 5,
+            "src": "./dist/images/5.jpg",
+            "title": "بلوز و پیراهن",
+            "height": "grid-item--height3",
+            "width": "",
+            "price": "350000",
+            "description": "لورم ایپســــوم متن ساختــــگی با تـــولید ســـادگی نـامفهوم از صــنعت چــاپ و با استـــــــفاده از طــــراحان گـــــرافـیـــک است. "
+        },
+        {
+            "id": 6,
+            "src": "./dist/images/6.jpg",
+            "title": "لباس حجاب لباس بارداری",
+            "height": "grid-item--height4",
+            "width": "grid-item--width2",
+            "price": "600000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 7,
+            "src": "./dist/images/7.jpg",
+            "title": "لباس زیر",
+            "height": "grid-item--height5",
+            "width": "",
+            "price": "645000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 8,
+            "src": "./dist/images/8.jpg",
+            "title": "شـال و روســـری شـال گـردن و کـلاه",
+            "height": "grid-item--height3",
+            "width": "",
+            "price": "2750000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 9,
+            "src": "./dist/images/9.jpg",
+            "title": "دامن و شلوار",
+            "height": "",
+            "width": "",
+            "price": "498000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 10,
+            "src": "./dist/images/10.jpg",
+            "title": "بلوز و پیراهن",
+            "height": "grid-item--height2",
+            "width": "",
+            "price": "2400000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        }
+    ],
+    "blog": [
+        {
+            "id": 1,
+            "src": "./dist/images/1.jpg",
+            "title": "بیرون پوش",
+            "height": "",
+            "width": "blog-item--width2",
+            "price": "3000000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 2,
+            "src": "./dist/images/2.jpg",
+            "title": "دامن و شلوار",
+            "height": "blog-item--height2",
+            "width": "blog-item--width2",
+            "price": "2200000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "src": "./dist/images/3.jpg",
+            "title": "شـال و روســـری شـال گـردن و کـلاه",
+            "height": "",
+            "width": "",
+            "price": "1100000",
+            "description": "اگر به\u200C دنبال شیک ترین و بهترین مدل لباس مجلسی هستید تا در مهمانی و عروسی ها حسابی بدرخشید، کلیک کنید."
+        },
+        {
+            "id": 4,
+            "src": "./dist/images/4.jpg",
+            "title": "اکسسوری کلاه گیس",
+            "height": "",
+            "width": "",
+            "price": "800000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 5,
+            "src": "./dist/images/5.jpg",
+            "title": "بلوز و پیراهن",
+            "height": "",
+            "width": "",
+            "price": "350000",
+            "description": "لورم ایپســــوم متن ساختــــگی با تـــولید ســـادگی نـامفهوم از صــنعت چــاپ و با استـــــــفاده از طــــراحان گـــــرافـیـــک است. "
+        },
+        {
+            "id": 6,
+            "src": "./dist/images/6.jpg",
+            "title": "لباس حجاب لباس بارداری",
+            "height": "",
+            "width": "",
+            "price": "600000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 7,
+            "src": "./dist/images/7.jpg",
+            "title": "لباس زیر",
+            "height": "",
+            "width": "",
+            "price": "645000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 8,
+            "src": "./dist/images/8.jpg",
+            "title": "شـال و روســـری شـال گـردن و کـلاه",
+            "height": "",
+            "width": "",
+            "price": "2750000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 9,
+            "src": "./dist/images/9.jpg",
+            "title": "دامن و شلوار",
+            "height": "",
+            "width": "",
+            "price": "498000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        },
+        {
+            "id": 10,
+            "src": "./dist/images/10.jpg",
+            "title": "بلوز و پیراهن",
+            "height": "",
+            "width": "",
+            "price": "2400000",
+            "description": "این مدل دارای رویه ای ترکیبی از الیاف مصنوعی و پارچه مش است که با گردش هوای داخل کفش منجر به راحتی دراز مدت پاها می شود."
+        }
+    ],
+    "foods": [
+        {
+            "id": 1,
+            "src": "./dist/images/1.jpg",
+            "title": "Image one title text"
+        },
+        {
+            "id": 2,
+            "src": "./dist/images/2.jpg",
+            "title": "Image two title text"
+        },
+        {
+            "id": 3,
+            "src": "./dist/images/3.jpg",
+            "title": "Image three title text"
+        }
+    ],
+    "colors": [
+        {
+            "id": 1,
+            "title": "بهار و تابستان",
+            "color": "#A05F7A"
+        },
+        {
+            "id": 2,
+            "title": "مجلسی",
+            "color": "#575E89"
+        },
+        {
+            "id": 3,
+            "title": "جنس کتان",
+            "color": "#82B26A"
+        },
+        {
+            "id": 4,
+            "title": "مهمانی",
+            "color": "#809483"
+        },
+        {
+            "id": 5,
+            "title": "پاییز و زمستان",
+            "color": "#558E84"
+        },
+        {
+            "id": 6,
+            "title": "جنس جین",
+            "color": "#B95F2E"
+        },
+        {
+            "id": 7,
+            "title": "رسمی",
+            "color": "#964F4A"
+        },
+        {
+            "id": 8,
+            "title": "مجلسی",
+            "color": "#5FA093"
+        },
+        {
+            "id": 9,
+            "title": "جوان ",
+            "color": "#5DA15A"
+        },
+        {
+            "id": 10,
+            "title": "جنس چرم",
+            "color": "#A57B62"
+        },
+        {
+            "id": 11,
+            "title": "میال سال",
+            "color": "#A05F7A"
+        },
+        {
+            "id": 12,
+            "title": "جنس جین",
+            "color": "#82B26A"
+        },
+        {
+            "id": 13,
+            "title": "جوان ",
+            "color": "#5DA15A"
+        },
+        {
+            "id": 14,
+            "title": "پاییز و زمستان",
+            "color": "#558E84"
+        },
+        {
+            "id": 15,
+            "title": "مجلسی",
+            "color": "#575E89"
+        }
+    ],
+    "lists" : [
+        {
+            "id": 1,
+            "title": "خرید نامزدی",
+            "count": "25",
+            "image1" : "./dist/images/19p.jpg",
+            "image2" : "./dist/images/14p.jpg",
+            "image3" : "./dist/images/15p.jpg",
+            "image4" : "./dist/images/16p.jpg",
+            "image5" : "./dist/images/23p.jpg",
+            "image6" : "./dist/images/22p.jpg"
+        },
+        {
+            "id": 2,
+            "title": "لباس های جذاب من",
+            "count": "89",
+            "image1" : "./dist/images/19p.jpg",
+            "image2" : "./dist/images/14p.jpg",
+            "image3" : "./dist/images/15p.jpg",
+            "image4" : "./dist/images/16p.jpg",
+            "image5" : "./dist/images/23p.jpg",
+            "image6" : "./dist/images/22p.jpg"
+        },
+        {
+            "id": 3,
+            "title": "خرید عروسی",
+            "count": "15",
+            "image1" : "./dist/images/19p.jpg",
+            "image2" : "./dist/images/14p.jpg",
+            "image3" : "./dist/images/15p.jpg",
+            "image4" : "./dist/images/16p.jpg",
+            "image5" : "./dist/images/23p.jpg",
+            "image6" : "./dist/images/22p.jpg"
+        },
+        {
+            "id": 4,
+            "title": "خرید",
+            "count": "63",
+            "image1" : "./dist/images/19p.jpg",
+            "image2" : "./dist/images/14p.jpg",
+            "image3" : "./dist/images/15p.jpg",
+            "image4" : "./dist/images/16p.jpg",
+            "image5" : "./dist/images/23p.jpg",
+            "image6" : "./dist/images/22p.jpg"
+        }
+    ]
+}

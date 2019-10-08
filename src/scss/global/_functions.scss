@@ -1,0 +1,11 @@
+
+@function theme-color($key: "primary") {
+    @return map-get($theme-colors-list, $key);
+}
+
+@function gray($key: "100") {
+    @return map-get($grays, $key);
+}
+
+
+

@@ -1,0 +1,16 @@
+
+.border         { border: $border-width solid $border-color !important; }
+.border-top     { border-top: $border-width solid $border-color !important; }
+.border-right   { border-right: $border-width solid $border-color !important; }
+.border-bottom  { border-bottom: $border-width solid $border-color !important; }
+.border-left    { border-left: $border-width solid $border-color !important; }
+
+@each $color, $value in $theme-colors-list {
+  .border-#{$color} {
+    border-color: $value !important;
+  }
+}
+
+.rounded-lg {
+  border-radius: 0.375rem !important;
+}

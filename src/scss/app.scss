@@ -1,0 +1,22 @@
+// Included Libraries
+@import "../node_modules/normalize.css/normalize.css";
+
+// global
+@import "./global/reset";
+@import "./global/variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./global/functions";
+@import "./global/mixins";
+
+
+// General Styles
+@import "./general/fonts";
+@import "./general/config";
+@import "./general/root";
+@import "./general/background";
+@import "./general/borders";
+@import "./general/text";
+
+// Partials
+@import "partials/toasts";
+@import "partials/alert";

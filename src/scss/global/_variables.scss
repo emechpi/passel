@@ -1,0 +1,90 @@
+$blue:    #007bff ;
+$indigo:  #6610f2 ;
+$purple:  #6f42c1 ;
+$pink:    #e83e8c ;
+$red:     #dc3545 ;
+$orange:  #fd7e14 ;
+$yellow:  #ffc107 ;
+$green:   #28a745 ;
+$teal:    #20c997 ;
+$cyan:    #17a2b8 ;
+
+$white:    #fff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057 ;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000 ;
+
+$grays: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$grays: map-merge(
+                (
+                        "100": $gray-100,
+                        "200": $gray-200,
+                        "300": $gray-300,
+                        "400": $gray-400,
+                        "500": $gray-500,
+                        "600": $gray-600,
+                        "700": $gray-700,
+                        "800": $gray-800,
+                        "900": $gray-900
+                ),
+                $grays
+);
+
+
+$theme-colors-list: () ;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors-list: map-merge(
+                (
+                        "blue":       $blue,
+                        "indigo":     $indigo,
+                        "purple":     $purple,
+                        "pink":       $pink,
+                        "red":        $red,
+                        "orange":     $orange,
+                        "yellow":     $yellow,
+                        "green":      $green,
+                        "teal":       $teal,
+                        "cyan":       $cyan,
+                        "white":      $white,
+                        "gray":       $gray-600,
+                        "gray-dark":  $gray-800
+                ),
+                $theme-colors-list
+);
+
+
+// Overrides
+$body-bg: #333333;
+$body-color: #555;
+$primary-icon-font-family: "Font Awesome 5 Pro";
+$primary-font-family-bold: "RobotoBold";
+$primary-font-family-regular: 'anjoman';
+$primary-font-family-light: "anjoman";
+$secondary-font-family-bold: "";
+$secondary-font-family-regular: "";
+$secondary-font-family-light: "";
+$border-radius: 0.5rem;
+$paragraph-margin-bottom: 1rem ;
+$image-smooth-shadow : 0 0px 4px 0 rgba(0,0,0,.25);
+
+
+// Font-sizes
+$font-size-base: 1rem;
+$font-size-lg: $font-size-base * 1.25 ;
+$font-size-sm: $font-size-base * .875 ;
+$font-weight-base: 400;
+$line-height-base: 1.5;
+
+//Toast
+$toast-bg-color: #4a4a4a;
+$toast-item-padding: .8rem;
+$toast-success-color: #00bfa5;
+

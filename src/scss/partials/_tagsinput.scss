@@ -1,0 +1,15 @@
+.badge-tag {
+    display: inline-flex !important;
+    padding: .325em .475em 0.325em .875em !important;
+    transition: all 0.3s ease-in-out;
+    i {
+        background-color: rgba(0,0,0,0.15);
+        padding: 0.25rem;
+        font-size: 0.5rem;
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        margin-right: 0 !important;
+        margin-left: 0.2rem;
+    }
+}

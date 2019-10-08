@@ -1,0 +1,51 @@
+.profile-header {
+    max-height:250px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 250px;
+
+    .profile-tabs-wrapper {
+        .profile-tabs {
+            position: absolute;
+            bottom: 0;
+            .profile-tabs-list {
+                flex-wrap: nowrap;
+                li a {
+                    cursor: pointer;
+                    display: flex;
+                    &.active {
+                        background-color: transparent;
+                        @include mobile-landscape {
+                            background-color: #f2eeeb;
+                        }
+                        @include mobile {
+                            background-color: #f2eeeb;
+                        }
+                    }
+                    span {
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+    }
+}
+.profile-header-action {
+    @include mobile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    @include mobile-landscape {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .btn {
+        display: inline-flex;
+    }
+}
