@@ -74,7 +74,7 @@ function watch_files() {
     });
     gulp.watch("./scss/**/*.scss", css);
     gulp.watch("./scripts/*.js", js).on("change", browserSync.reload);
-    gulp.watch("./components/*.html", nunjucks).on("change", browserSync.reload);
+    gulp.watch("./components/**/*.html", nunjucks).on("change", browserSync.reload);
     gulp.watch("./pages/*.html", nunjucks).on("change", browserSync.reload);
 }
 

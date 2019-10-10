@@ -15,8 +15,9 @@
 @import "./general/root";
 @import "./general/background";
 @import "./general/borders";
-@import "./general/text";
 
 // Partials
 @import "partials/toasts";
-@import "partials/alert";
+@import "partials/popup";
+@import "partials/selectors";
+@import "partials/btn";

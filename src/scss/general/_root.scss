@@ -1,5 +1,5 @@
 :root {
-    @each $color, $value in $theme-colors-list {
+    @each $color, $value in $colors-root {
         --#{$color}: #{$value};
     }
 }

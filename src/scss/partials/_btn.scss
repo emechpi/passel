@@ -1,65 +1,73 @@
-@import "../global/variables";
 
 .btn {
-    font-weight: $btn-font-weight;
-    color: $body-color;
-    padding: $btn-padding-y $btn-padding-x;
-    @include transition(all, 0.2s);
-    @include hover {
-        color: $body-color;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: .5rem .75rem;
+    transition: all 0.2s ease-in-out;
+    &.top-radius {
+        border-radius: $border-radius*1.5 $border-radius*1.5 0 0;
     }
-
-    &:focus,
-    &.focus {
-        box-shadow: 0 0 0 rgba(99, 0, 230, 0.25);
+    &.btn-extra-padding {
+        padding: 0.5rem 3rem;
     }
-
-    // Disabled comes first so active can properly restyle
-    &.disabled,
-    &:disabled {
-        box-shadow: none;
-    }
-
-    &:not(:disabled):not(.disabled):active,
-    &:not(:disabled):not(.disabled).active {
-        box-shadow: $btn-active-box-shadow;
-
-        &:focus {
-            box-shadow: $btn-active-focus-box-shadow;
-        }
+    &:hover {
+        color: white;
     }
 }
 
 @each $color, $value in $theme-colors-list {
     .btn-#{$color} {
-        @include button-variant-f($value, $value);
+        background: $value;
+    }
+}
+
+.btn-grid {
+    background: #29282c;
+    border-radius: $border-radius*1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .7rem .9rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.1);
+    margin: 0 3px;
+}
+@each $color, $value in $theme-colors-list {
+    .btn-grid-#{$color} {
+        .btn-grid_icon_wrapper {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: $border-radius*2;
+            border: 1px solid $value;
+            padding: 0.7rem;
+        }
+        .btn-grid_title {
+            margin-top: 1rem;
+            color: white;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
     }
 }
 
 @each $color, $value in $theme-colors-list {
     .btn-outline-#{$color} {
-        @include button-outline-variant-f($value);
+        border: 1px solid $value;
+        color: white;
     }
 }
 
-.btn-link {
-    color: $link-color;
-
-    @include hover {
-        color: $link-hover-color;
-        text-decoration: $link-hover-text-decoration;
+@each $color, $value in $colors-root {
+    .btn-outline-#{$color} {
+        box-shadow: 0 0.25rem 0.75rem rgba(var(--#{$color}), 0.3);
     }
-
-    &:focus,
-    &.focus {
-        text-decoration: $link-hover-text-decoration;
+    .btn-grid-#{$color} {
+        .btn-grid_icon_wrapper {
+            box-shadow: 0 0.25rem 0.75rem rgba(var(--#{$color}), 0.3);
+        }
     }
-
-    &:disabled,
-    &.disabled {
-        color: $btn-link-disabled-color;
-    }
-
 }
 
 .btn-lg, .btn-group-lg > .btn {

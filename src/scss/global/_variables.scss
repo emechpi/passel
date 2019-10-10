@@ -1,13 +1,41 @@
-$blue:    #007bff ;
-$indigo:  #6610f2 ;
-$purple:  #6f42c1 ;
-$pink:    #e83e8c ;
-$red:     #dc3545 ;
-$orange:  #fd7e14 ;
-$yellow:  #ffc107 ;
-$green:   #28a745 ;
-$teal:    #20c997 ;
-$cyan:    #17a2b8 ;
+$primary: #944268;
+$secondary : #78909c;
+$success: #00bfa5;
+$info: #3cabec;
+$warning :#ffca28;
+$danger :  #ff1744;
+$light : rgba(255,255,255,.75);
+$dark : #333333;
+$yellow:#bc970a;
+$blue: #039be5;
+$dark-blue: #3d467b;
+$teal: #3bc6d4;
+$dark-red: #c34053;
+$purple: #c568fb;
+$pink: #f0328b;
+$green: #56cb54;
+$orange:#eb8431;
+
+
+$root-primary: 148, 66, 104;
+$root-secondary : 120, 144, 156;
+$root-success: 0, 191, 165;
+$root-info: 60, 171, 236;
+$root-warning : 255, 202, 40;
+$root-danger :  255, 23, 68;
+$root-light : 255,255,255;
+$root-dark : 51, 51, 51;
+$root-yellow: 188, 151, 10;
+$root-blue: 3, 155, 229;
+$root-dark-blue: 61, 70, 123;
+$root-teal: 59, 198, 212;
+$root-dark-red: 195, 64, 83;
+$root-purple: 197, 104, 251;
+$root-pink: 240, 50, 139;
+$root-green: 86, 203, 84;
+$root-orange: 235, 132, 49;
+
+
 
 $white:    #fff ;
 $gray-100: #f8f9fa ;
@@ -20,6 +48,31 @@ $gray-700: #495057 ;
 $gray-800: #343a40 ;
 $gray-900: #212529 ;
 $black:    #000 ;
+
+$colors-root: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors-root: map-merge(
+                (
+                        primary: $root-primary,
+                        secondary: $root-secondary,
+                        success: $root-success,
+                        info: $root-info,
+                        warning: $root-warning,
+                        danger: $root-danger,
+                        light: $root-light,
+                        dark: $root-dark,
+                        yellow: $root-yellow,
+                        blue: $root-blue,
+                        dark-blue: $root-dark-blue,
+                        teal: $root-teal,
+                        dark-red: $root-dark-red,
+                        purple: $root-purple,
+                        pink: $root-pink,
+                        green: $root-green,
+                        orange: $root-orange,
+                ),
+                $colors-root
+);
 
 $grays: ();
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -43,31 +96,34 @@ $theme-colors-list: () ;
 // stylelint-disable-next-line scss/dollar-variable-default
 $theme-colors-list: map-merge(
                 (
-                        "blue":       $blue,
-                        "indigo":     $indigo,
-                        "purple":     $purple,
-                        "pink":       $pink,
-                        "red":        $red,
-                        "orange":     $orange,
-                        "yellow":     $yellow,
-                        "green":      $green,
-                        "teal":       $teal,
-                        "cyan":       $cyan,
-                        "white":      $white,
-                        "gray":       $gray-600,
-                        "gray-dark":  $gray-800
+                        primary: $primary,
+                        secondary: $secondary,
+                        success: $success,
+                        info: $info,
+                        warning: $warning,
+                        danger: $danger,
+                        light: $light,
+                        dark: $dark,
+                        yellow: $yellow,
+                        blue: $blue,
+                        dark-blue: $dark-blue,
+                        teal: $teal,
+                        dark-red: $dark-red,
+                        purple: $purple,
+                        pink: $pink,
+                        green: $green,
+                        orange: $orange,
                 ),
                 $theme-colors-list
 );
 
 
 // Overrides
-$body-bg: #333333;
+$body-bg: #212121;
 $body-color: #555;
-$primary-icon-font-family: "Font Awesome 5 Pro";
-$primary-font-family-bold: "RobotoBold";
-$primary-font-family-regular: 'anjoman';
-$primary-font-family-light: "anjoman";
+$primary-font-family-bold: "IRANSans";
+$primary-font-family-regular: 'IRANSans';
+$primary-font-family-light: "IRANSans";
 $secondary-font-family-bold: "";
 $secondary-font-family-regular: "";
 $secondary-font-family-light: "";
@@ -86,5 +142,8 @@ $line-height-base: 1.5;
 //Toast
 $toast-bg-color: #4a4a4a;
 $toast-item-padding: .8rem;
-$toast-success-color: #00bfa5;
+
+//Popup
+$popup-bg-color :#4a4a4a;
+$popup-item-padding : 1rem;
 

@@ -1,6 +1,7 @@
 .toast {
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
     justify-content: space-between;
     padding: $toast-item-padding;
     font-size: $font-size-sm;
@@ -8,9 +9,9 @@
     border-left: 3px solid;
     background: $toast-bg-color;
     &.show {
-        visibility: visible;
-        -webkit-animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 2s, fadeout 0.5s 2.5s;
-        animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 4s, fadeout 0.5s 4.5s;
+        display: flex;
+        -webkit-animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 2s;
+        animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 4s;
         .toast-body {
             .toast-message {
                 visibility: visible;
@@ -34,6 +35,30 @@
             margin-right: 5px;
         }
     }
+    .toast-action {
+        .btn {
+            padding: 0.1rem 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: $border-radius;
+            font-size: 0.75rem;
+            @each $color, $value in $theme-colors-list {
+                &.btn-#{$color} {
+                    border: 1px solid $value;
+                }
+            }
+            @each $color, $value in $colors-root {
+                &.btn-#{$color} {
+                    background: rgba(var(--#{$color}), 0.5);
+                }
+            }
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
     &.has-icon {
         .icon-place {
             width: 26px;
@@ -45,8 +70,10 @@
             box-sizing: border-box;
         }
     }
-    &.success {
-        border-left-color: $toast-success-color;
+    @each $color, $value in $theme-colors-list {
+        &.toast-#{$color} {
+            border-left-color: $value;
+        }
     }
 }
 
@@ -86,14 +113,4 @@
 @keyframes shrink {
     from {min-width: 320px;}
     to {min-width: 50px;}
-}
-
-@-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 60px; opacity: 0;}
-}
-
-@keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 60px; opacity: 0;}
 }
