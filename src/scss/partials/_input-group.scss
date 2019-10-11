@@ -1,3 +1,22 @@
-.input-group-text {
-    padding: 0.75rem 1.25rem;
+.material-input {
+    background: transparent !important;
+    border: none !important;
+    text-align: right;
+    direction: rtl;
+    margin-right: 5px;
+    font-size: 0.8rem;
+    padding: .2rem 0rem .4rem 1rem;
+    &:focus {
+        outline: none;
+        border: none;
+    }
+    @each $color, $value in $theme-colors-list {
+        &.input-#{$color} {
+            color: $value !important;
+            border-bottom: 1px solid $value !important;
+            &::placeholder {
+                color: $value !important;
+            }
+        }
+    }
 }

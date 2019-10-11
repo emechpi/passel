@@ -1,5 +1,24 @@
 // stylelint-disable declaration-no-important
-
+@each $color, $value in $theme-colors-list {
+    .bg-#{$color} {
+        background: $value !important;
+    }
+}
+@each $color, $value in $theme-colors-list {
+    .text-#{$color} {
+        color: $value !important;
+    }
+}
+@each $color, $value in $theme-colors-list {
+    .border-#{$color} {
+        border-color: $value !important;
+    }
+}
+@each $color, $value in $colors-root {
+    .bg-gradient-#{$color} {
+        background: linear-gradient(rgba(var(--#{$color}), 0.8), rgba(var(--#{$color}), 1));
+    }
+}
 .bg-white {
     background-color: $white !important;
 }
