@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="calendar-add" transform="translate(0.5 0.5)">
+    <path id="Path_4205" data-name="Path 4205" d="M9.5,18.5h-8a1,1,0,0,1-1-1V3.5a1,1,0,0,1,1-1h18a1,1,0,0,1,1,1V10" transform="translate(-0.5 -0.501)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_221" data-name="Line 221" y2="5" transform="translate(5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_222" data-name="Line 222" y2="5" transform="translate(15)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_223" data-name="Line 223" x2="20" transform="translate(0 7)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="Ellipse_66" data-name="Ellipse 66" cx="6" cy="6" r="6" transform="translate(11 11)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <line id="Line_224" data-name="Line 224" y2="6" transform="translate(17 14)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_225" data-name="Line 225" x1="6" transform="translate(14 17)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="32" viewBox="0 0 30 32">
+  <g id="take_off-date" data-name="take off-date" transform="translate(0.5 0.5)">
+    <g id="calendar-check" transform="translate(0 1.646)">
+      <rect id="Rectangle_319" data-name="Rectangle 319" width="29" height="27" rx="1" transform="translate(0 2.354)" stroke-width="1" stroke="#d6d6d6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <line id="Line_204" data-name="Line 204" y2="6" transform="translate(6 -1.646)" fill="none" stroke="#d6d6d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Line_205" data-name="Line 205" y2="6" transform="translate(23 -1.646)" fill="none" stroke="#d6d6d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Line_206" data-name="Line 206" x2="29" transform="translate(0 7.354)" fill="none" stroke="#d6d6d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <path id="Path_4192" data-name="Path 4192" d="M1.382,9.652A1.786,1.786,0,0,1,.1,8.5,1.688,1.688,0,0,1,0,7.933,1.765,1.765,0,0,1,.825,6.4L10.985.094a.622.622,0,0,1,.689.02L15.405,2.73a.344.344,0,0,1,.052.485.322.322,0,0,1-.059.058L13.835,4.651a.344.344,0,0,1-.333.057L11.54,3.54,9.054,5.275l4.71,2.916a.427.427,0,0,1,.049.6.419.419,0,0,1-.069.064l-1.152.853a.428.428,0,0,1-.4.058L5.7,7.353,2.7,9.4A1.664,1.664,0,0,1,1.382,9.652Z" transform="translate(22.468 24.618) rotate(180)" fill="none" stroke="#d6d6d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

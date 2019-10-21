@@ -1,0 +1,6 @@
+<svg id="optimization-timer" xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15">
+  <g id="optimization-timer-2" data-name="optimization-timer" transform="translate(-11 -9)" opacity="0.9">
+    <path id="Path_4131" data-name="Path 4131" d="M17.5,24A6.5,6.5,0,0,1,17,11.02V10H14.5a.5.5,0,0,1,0-1h6a.5.5,0,0,1,0,1H18v1.02A6.5,6.5,0,0,1,17.5,24Zm0-12A5.5,5.5,0,1,0,23,17.5,5.506,5.506,0,0,0,17.5,12Z" fill="#ffccf2"/>
+    <path id="Path_4132" data-name="Path 4132" d="M17.5,18a.5.5,0,0,1-.5-.5v-4a.5.5,0,0,1,1,0V17h2.5a.5.5,0,0,1,0,1Z" fill="#ffccf2"/>
+  </g>
+</svg>

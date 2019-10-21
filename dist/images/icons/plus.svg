@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.415" height="10.416" viewBox="0 0 10.415 10.416">
+  <g id="plus" transform="translate(0.733 0.734)">
+    <g id="plus-2" data-name="plus" transform="matrix(0.695, 0.719, -0.719, 0.695, 4.552, 0)">
+      <path id="Path_4109" data-name="Path 4109" d="M6.2,6.327A.132.132,0,0,1,6.1,6.288L3.164,3.349.225,6.288A.132.132,0,1,1,.038,6.1L2.977,3.163.039.224a.132.132,0,0,1,0-.186A.13.13,0,0,1,.132,0,.132.132,0,0,1,.225.037L3.164,2.976,6.1.038a.132.132,0,0,1,.187.186L3.35,3.163,6.289,6.1a.132.132,0,0,1,0,.186A.13.13,0,0,1,6.2,6.327Z" transform="translate(0 0.001)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

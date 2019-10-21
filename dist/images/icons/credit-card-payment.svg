@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.4" height="33.424" viewBox="0 0 19.4 33.424">
+  <g id="credit-card-payment" transform="translate(0.5 0.514)">
+    <path id="Path_3753" data-name="Path 3753" d="M1.915,4.5A1.434,1.434,0,0,0,.5,5.952V29.179a2.868,2.868,0,0,0,2.831,2.9H16.069a2.868,2.868,0,0,0,2.831-2.9V5.952A1.434,1.434,0,0,0,17.485,4.5" transform="translate(-0.5 0.329)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_3754" data-name="Path 3754" d="M.5,7.5H18.9" transform="translate(-0.5 2.265)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_3755" data-name="Path 3755" d="M.5,11.5H18.9" transform="translate(-0.5 3.926)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_36" data-name="Line 36" x2="1.238" transform="translate(2.866 25.334)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_37" data-name="Line 37" x2="1.238" transform="translate(7.156 25.334)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_38" data-name="Line 38" x2="1.238" transform="translate(11.447 25.334)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_39" data-name="Line 39" x2="1.238" transform="translate(2.866 28.696)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_40" data-name="Line 40" x2="1.238" transform="translate(7.156 28.696)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_41" data-name="Line 41" x2="1.238" transform="translate(11.447 28.696)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_42" data-name="Line 42" x2="1.238" transform="translate(2.866 22.503)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_43" data-name="Line 43" x2="1.238" transform="translate(7.156 22.503)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_44" data-name="Line 44" x2="1.238" transform="translate(11.447 22.503)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_45" data-name="Line 45" x2="2.477" transform="translate(2.901 19.672)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_46" data-name="Line 46" x2="1.238" transform="translate(8.587 19.672)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_47" data-name="Line 47" x2="2.477" transform="translate(13.034 19.672)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_48" data-name="Line 48" y1="4.954" transform="translate(15.928 23.742)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_3756" data-name="Path 3756" d="M3.5,9.145V1.478a.6.6,0,0,1,.373-.53A.967.967,0,0,1,4.641.924l1.993.79L8.556.7a.96.96,0,0,1,.868,0l1.91,1.009L13.34.924A.967.967,0,0,1,14.1.951a.6.6,0,0,1,.372.527V9.145" transform="translate(0.215 -0.601)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_49" data-name="Line 49" x2="3.715" transform="translate(7.348 3.59)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_50" data-name="Line 50" x2="1.238" transform="translate(7.156 6.934)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

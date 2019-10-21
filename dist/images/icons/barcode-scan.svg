@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.421" height="14.51" viewBox="0 0 20.421 14.51">
+  <g id="barcode-scan" transform="translate(0.5 0.5)">
+    <path id="Path_4140" data-name="Path 4140" d="M.5,7.185V5.062A1.062,1.062,0,0,1,1.562,4H3.685" transform="translate(-0.5 -4)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_4141" data-name="Path 4141" d="M3.685,20.185H1.562A1.062,1.062,0,0,1,.5,19.123V17" transform="translate(-0.5 -6.676)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_4142" data-name="Path 4142" d="M23.685,17v2.123a1.062,1.062,0,0,1-1.062,1.062H20.5" transform="translate(-4.265 -6.676)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_4143" data-name="Path 4143" d="M20.5,4h2.123a1.062,1.062,0,0,1,1.062,1.062V7.185" transform="translate(-4.265 -4)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_152" data-name="Line 152" y2="6.901" transform="translate(4.222 3.304)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_153" data-name="Line 153" y2="6.901" transform="translate(15.198 3.304)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_154" data-name="Line 154" y2="4.247" transform="translate(5.91 3.667)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_155" data-name="Line 155" y2="4.247" transform="translate(10.132 3.667)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_156" data-name="Line 156" y2="4.247" transform="translate(11.821 3.667)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_157" data-name="Line 157" y2="4.247" transform="translate(7.599 3.667)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_158" data-name="Line 158" y2="4.247" transform="translate(13.51 3.667)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_159" data-name="Line 159" y1="0.531" transform="translate(5.91 9.001)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_160" data-name="Line 160" y1="0.531" transform="translate(7.599 9.001)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_161" data-name="Line 161" y1="0.531" transform="translate(10.132 9.001)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_162" data-name="Line 162" y1="0.531" transform="translate(11.821 9.001)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_163" data-name="Line 163" y1="0.531" transform="translate(13.51 9.001)" fill="none" stroke="#62094c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

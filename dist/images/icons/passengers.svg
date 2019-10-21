@@ -1,0 +1,12 @@
+<svg id="passengers_" data-name="passengers " xmlns="http://www.w3.org/2000/svg" width="29.443" height="29.71" viewBox="0 0 29.443 29.71">
+  <g id="single-neutral-briefcase">
+    <path id="Path_4199" data-name="Path 4199" d="M6.452,9.9A4.952,4.952,0,1,1,11.4,4.952,4.957,4.957,0,0,1,6.452,9.9Zm0-8.665a3.714,3.714,0,1,0,3.714,3.714A3.718,3.718,0,0,0,6.452,1.238Z" transform="translate(0.357)" fill="#d6d6d6"/>
+    <path id="Path_4200" data-name="Path 4200" d="M4.333,27.688a.621.621,0,0,1-.616-.567l-.572-6.861H.619A.619.619,0,0,1,0,19.642V15.309a6.808,6.808,0,0,1,13.3-2.043.619.619,0,0,1-.589.8h0a.618.618,0,0,1-.592-.433A5.571,5.571,0,0,0,1.238,15.309v3.714H3.714a.621.621,0,0,1,.616.567L4.9,26.45H8.715l.572-6.861a.621.621,0,0,1,.616-.567h1.238a.619.619,0,0,1,0,1.238h-.668L9.9,27.121a.621.621,0,0,1-.616.567Z" transform="translate(0 2.022)" fill="#d6d6d6"/>
+  </g>
+  <g id="Group_1285" data-name="Group 1285" transform="translate(-320.29 -457.145)">
+    <path id="Path_4201" data-name="Path 4201" d="M19.733,23.293a1.088,1.088,0,0,1-1.088,1.088H5.588A1.088,1.088,0,0,1,4.5,23.293v-8.7A1.088,1.088,0,0,1,5.588,13.5H18.645a1.088,1.088,0,0,1,1.088,1.088Z" transform="translate(329.5 461.764)" fill="none" stroke="#3d467b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_210" data-name="Line 210" y2="11" transform="translate(337 475.145)" fill="none" stroke="#3d467b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_211" data-name="Line 211" y2="11" transform="translate(346 475.145)" fill="none" stroke="#3d467b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_4202" data-name="Path 4202" d="M9.5,13.764V12.676a2.176,2.176,0,1,1,4.352,0v1.088" transform="translate(329.94 461.5)" fill="none" stroke="#3d467b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

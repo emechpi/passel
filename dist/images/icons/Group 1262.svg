@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="39.096" viewBox="0 0 62 39.096">
+  <defs>
+    <linearGradient id="linear-gradient" x1="2.729" x2="2.822" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#51598e"/>
+      <stop offset="1" stop-color="#141946" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1262" data-name="Group 1262" transform="translate(-63.5 -181.194)">
+    <g id="barcode-scan" transform="translate(66 177.694)">
+      <path id="Path_4157" data-name="Path 4157" d="M1.15,12.7A1.15,1.15,0,0,1,0,11.549V6.95A3.454,3.454,0,0,1,3.45,3.5h4.6a1.15,1.15,0,1,1,0,2.3H3.45A1.15,1.15,0,0,0,2.3,6.95v4.6A1.15,1.15,0,0,1,1.15,12.7Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_4158" data-name="Path 4158" d="M3.45,25.7A3.454,3.454,0,0,1,0,22.249v-4.6a1.15,1.15,0,0,1,2.3,0v4.6A1.15,1.15,0,0,0,3.45,23.4h4.6a1.15,1.15,0,1,1,0,2.3Z" transform="translate(0 16.896)" fill="url(#linear-gradient)"/>
+      <path id="Path_4159" data-name="Path 4159" d="M21.15,25.7a1.15,1.15,0,0,1,0-2.3h4.6a1.15,1.15,0,0,0,1.15-1.15v-4.6a1.15,1.15,0,1,1,2.3,0v4.6a3.454,3.454,0,0,1-3.45,3.45Z" transform="translate(25.994 16.896)" fill="url(#linear-gradient)"/>
+      <path id="Path_4160" data-name="Path 4160" d="M28.049,12.7a1.15,1.15,0,0,1-1.15-1.15V6.95a1.15,1.15,0,0,0-1.15-1.15h-4.6a1.15,1.15,0,0,1,0-2.3h4.6A3.454,3.454,0,0,1,29.2,6.95v4.6A1.15,1.15,0,0,1,28.049,12.7Z" transform="translate(25.994 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_4161" data-name="Path 4161" d="M6.15,25.5A1.15,1.15,0,0,1,5,24.348V9.4a1.15,1.15,0,1,1,2.3,0V24.348A1.15,1.15,0,0,1,6.15,25.5Z" transform="translate(6.499 6.174)" fill="url(#linear-gradient)"/>
+      <path id="Path_4162" data-name="Path 4162" d="M19.15,25.5A1.15,1.15,0,0,1,18,24.348V9.4a1.15,1.15,0,1,1,2.3,0V24.348A1.15,1.15,0,0,1,19.15,25.5Z" transform="translate(23.395 6.174)" fill="url(#linear-gradient)"/>
+      <path id="Path_4163" data-name="Path 4163" d="M8.15,19.749A1.15,1.15,0,0,1,7,18.6V9.4a1.15,1.15,0,1,1,2.3,0v9.2A1.15,1.15,0,0,1,8.15,19.749Z" transform="translate(9.098 6.174)" fill="url(#linear-gradient)"/>
+      <path id="Path_4164" data-name="Path 4164" d="M13.15,19.749A1.15,1.15,0,0,1,12,18.6V9.4a1.15,1.15,0,1,1,2.3,0v9.2A1.15,1.15,0,0,1,13.15,19.749Z" transform="translate(15.597 6.174)" fill="url(#linear-gradient)"/>
+      <path id="Path_4165" data-name="Path 4165" d="M15.15,19.749A1.15,1.15,0,0,1,14,18.6V9.4a1.15,1.15,0,1,1,2.3,0v9.2A1.15,1.15,0,0,1,15.15,19.749Z" transform="translate(18.196 6.174)" fill="url(#linear-gradient)"/>
+      <path id="Path_4166" data-name="Path 4166" d="M10.15,19.749A1.15,1.15,0,0,1,9,18.6V9.4a1.15,1.15,0,1,1,2.3,0v9.2A1.15,1.15,0,0,1,10.15,19.749Z" transform="translate(11.698 6.174)" fill="url(#linear-gradient)"/>
+      <path id="Path_4167" data-name="Path 4167" d="M17.15,19.749A1.15,1.15,0,0,1,16,18.6V9.4a1.15,1.15,0,1,1,2.3,0v9.2A1.15,1.15,0,0,1,17.15,19.749Z" transform="translate(20.796 6.174)" fill="url(#linear-gradient)"/>
+      <path id="Path_4168" data-name="Path 4168" d="M8.15,17.7A1.15,1.15,0,0,1,7,16.55V15.4a1.15,1.15,0,0,1,2.3,0v1.15A1.15,1.15,0,0,1,8.15,17.7Z" transform="translate(9.098 13.972)" fill="url(#linear-gradient)"/>
+      <path id="Path_4169" data-name="Path 4169" d="M10.15,17.7A1.15,1.15,0,0,1,9,16.55V15.4a1.15,1.15,0,0,1,2.3,0v1.15A1.15,1.15,0,0,1,10.15,17.7Z" transform="translate(11.698 13.972)" fill="url(#linear-gradient)"/>
+      <path id="Path_4170" data-name="Path 4170" d="M13.15,17.7A1.15,1.15,0,0,1,12,16.55V15.4a1.15,1.15,0,0,1,2.3,0v1.15A1.15,1.15,0,0,1,13.15,17.7Z" transform="translate(15.597 13.972)" fill="url(#linear-gradient)"/>
+      <path id="Path_4171" data-name="Path 4171" d="M15.15,17.7A1.15,1.15,0,0,1,14,16.55V15.4a1.15,1.15,0,0,1,2.3,0v1.15A1.15,1.15,0,0,1,15.15,17.7Z" transform="translate(18.196 13.972)" fill="url(#linear-gradient)"/>
+      <path id="Path_4172" data-name="Path 4172" d="M17.15,17.7A1.15,1.15,0,0,1,16,16.55V15.4a1.15,1.15,0,1,1,2.3,0v1.15A1.15,1.15,0,0,1,17.15,17.7Z" transform="translate(20.796 13.972)" fill="url(#linear-gradient)"/>
+    </g>
+    <line id="Line_186" data-name="Line 186" x2="62" transform="translate(63.5 200.5)" fill="none" stroke="#3b416d" stroke-width="1"/>
+  </g>
+</svg>

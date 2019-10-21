@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.894" height="23.617" viewBox="0 0 43.894 23.617">
+  <g id="Component_102_1" data-name="Component 102 – 1" transform="translate(0)">
+    <g id="Group_982" data-name="Group 982" transform="translate(7.98 1.271)">
+      <path id="Path_3633" data-name="Path 3633" d="M3.49,28.914A3.49,3.49,0,0,1,0,25.428V11.486A3.489,3.489,0,0,1,3.49,8H24.4a3.49,3.49,0,0,1,3.486,3.486V25.428A3.491,3.491,0,0,1,24.4,28.914Zm0-19.519A2.094,2.094,0,0,0,1.4,11.486V25.428A2.094,2.094,0,0,0,3.49,27.519H24.4A2.094,2.094,0,0,0,26.5,25.428V11.486A2.094,2.094,0,0,0,24.4,9.394Z" transform="translate(-0.004 -8)" fill="#fff"/>
+      <line id="Line_103" data-name="Line 103" x2="26.284" transform="translate(0.801 6.758)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+    <g id="Group_1184" data-name="Group 1184" transform="translate(2.003 14.426)">
+      <line id="Line_144" data-name="Line 144" x2="39.892" transform="translate(0)" fill="none" stroke="#ff078f" stroke-width="1"/>
+    </g>
+    <g id="Vector_Smart_Object_copy_3" data-name="Vector Smart Object copy 3" transform="translate(37.889 0.639)">
+      <path id="Path_8" data-name="Path 8" d="M108.128-176.774h6v4.67h-.542v-4.117h-5.462Z" transform="translate(-108.128 176.774)" fill="#fff"/>
+    </g>
+    <g id="Vector_Smart_Object_copy_5" data-name="Vector Smart Object copy 5" transform="matrix(-1, 0, 0, -1, 6.005, 4.67)">
+      <path id="Path_12" data-name="Path 12" d="M0,4.67H6V0H5.462V4.117H0Z" transform="translate(0 0)" fill="#ff078f"/>
+    </g>
+    <path id="Path_4127" data-name="Path 4127" d="M108.128-172.1h6v-4.67h-.542v4.117h-5.462Z" transform="translate(-70.24 195.082)" fill="#ff078f"/>
+    <path id="Path_4128" data-name="Path 4128" d="M0,0H6V4.67H5.462V.553H0Z" transform="matrix(-1, 0, 0, -1, 6.004, 23.617)" fill="#fff"/>
+  </g>
+</svg>

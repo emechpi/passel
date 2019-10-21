@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="16.507" viewBox="0 0 18.906 16.507">
+  <g id="phone-retro-1" transform="translate(0 -1.538)">
+    <path id="Path_4031" data-name="Path 4031" d="M16.46,2.754a2.48,2.48,0,0,1,1.946,2.336V6.646A1.569,1.569,0,0,1,16.849,8.2H14.513a1.569,1.569,0,0,1-1.557-1.557V5.478a35.835,35.835,0,0,0-7.007,0V6.646A1.569,1.569,0,0,1,4.393,8.2H2.057A1.569,1.569,0,0,1,.5,6.646V5.089A2.48,2.48,0,0,1,2.446,2.754a35.017,35.017,0,0,1,14.013,0Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_4032" data-name="Path 4032" d="M17.292,18.74a.779.779,0,0,1-.779.779H3.279A.779.779,0,0,1,2.5,18.74V17.183a6.246,6.246,0,0,1,6.228-6.228h2.336a6.246,6.246,0,0,1,6.228,6.228Z" transform="translate(-0.443 -1.973)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_100" data-name="Line 100" y2="1.557" transform="translate(8.285 7.425)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_101" data-name="Line 101" y2="1.557" transform="translate(10.621 7.425)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="Ellipse_45" data-name="Ellipse 45" cx="2.725" cy="2.725" r="2.725" transform="translate(6.728 10.539)" stroke-width="1" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
