@@ -69,6 +69,9 @@
 @each $color, $value in $colors-root {
     .btn-outline-#{$color} {
         box-shadow: 0 0.25rem 0.75rem rgba(var(--#{$color}), 0.3);
+        &.top-radius {
+            box-shadow: 0 0.25rem 0.75rem rgba(var(--#{$color}), 0.3), inset 0 9px 12px -10px rgba(var(--#{$color}), 0.9);
+        }
     }
     .btn-grid-#{$color} {
         .btn-grid_icon_wrapper {

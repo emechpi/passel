@@ -5,26 +5,5 @@
             height: 33px;
             max-width: 100%;
         }
-        .material-input-wrapper {
-            position: relative;
-            margin-right: 5px;
-            width: 100%;
-            .small-selector {
-                position: absolute;
-                left: 0;
-                top: -7px;
-                .selector-item {
-                    width: 33px;
-                    height: 33px;
-                }
-            }
-            .material-input {
-                width: 100%;
-                background: transparent !important;
-                border: none !important;
-                color: darkblue;
-                border-bottom: 1px solid $dark-blue !important;
-            }
-        }
     }
 }

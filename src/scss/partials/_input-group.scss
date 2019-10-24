@@ -1,22 +1,58 @@
-.material-input {
-    background: transparent !important;
-    border: none !important;
-    text-align: right;
-    direction: rtl;
-    margin-right: 5px;
-    font-size: 0.8rem;
-    padding: .2rem 0rem .4rem 1rem;
-    &:focus {
-        outline: none;
-        border: none;
+.material-input-wrapper {
+    max-width: 350px;
+    position: relative;
+    .small-selector {
+        position: absolute;
+        left: 0;
+        top: -7px;
+        .selector-item {
+            width: 33px;
+            height: 33px;
+        }
     }
-    @each $color, $value in $theme-colors-list {
-        &.input-#{$color} {
-            color: $value !important;
-            border-bottom: 1px solid $value !important;
-            &::placeholder {
-                color: $value !important;
+    .material-input {
+        height: calc(1.5em + 1.5rem + 2px);
+        width: 100%;
+        background: transparent !important;
+        border: none !important;
+        color: white !important;
+        font-size: 1rem;
+        padding: .75rem 1.25rem 0 1.25rem;
+        transition: all 0.3s ease-in-out;
+        max-width: 350px;
+        text-align: right;
+        font-weight: bold;
+        direction: rtl;
+        &:focus, &[value]:valid {
+            outline: none;
+            border: none;
+            ~ label {
+                top: 0;
+                right: 0.25rem;
+                font-size: 0.8rem;
+                font-weight: normal;
+            }
+        }
+        @each $color, $value in $theme-colors-list {
+            &.input-#{$color} {
+                border-bottom: 1px solid $value !important;
+                &::placeholder {
+                    color: $value !important;
+                }
+                + label {
+                    color: $value;
+                }
             }
         }
     }
+    label {
+        position: absolute;
+        right: .75rem;
+        top: 14px;
+        font-weight: bold;
+        pointer-events: none;
+        transition: 300ms ease all;
+        font-size: 1rem;
+    }
 }
+
