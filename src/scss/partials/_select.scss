@@ -1,0 +1,18 @@
+.material-select {
+    height: calc(1.5em + 1.5rem + 2px);
+    width: 100%;
+    background: transparent !important;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    color: white !important;
+    font-size: 1rem;
+    padding: .5rem .25rem;
+    transition: all 0.3s ease-in-out;
+    max-width: 350px;
+    text-align: right;
+    font-weight: bold;
+    direction: rtl;
+    &:focus {
+        outline: none;
+    }
+}

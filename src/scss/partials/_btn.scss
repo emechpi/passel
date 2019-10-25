@@ -11,7 +11,7 @@
     &.btn-extra-padding {
         padding: 0.5rem 3rem;
     }
-    &:not(.top-radius):hover, &:not(.top-radius):focus {
+    &:hover, &:focus {
         color: white;
         outline: none !important;
         box-shadow: none !important;
@@ -71,6 +71,9 @@
         box-shadow: 0 0.25rem 0.75rem rgba(var(--#{$color}), 0.3);
         &.top-radius {
             box-shadow: 0 0.25rem 0.75rem rgba(var(--#{$color}), 0.3), inset 0 9px 12px -10px rgba(var(--#{$color}), 0.9);
+        }
+        &.fill {
+            background: rgba(var(--#{$color}), 0.4);
         }
     }
     .btn-grid-#{$color} {
