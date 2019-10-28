@@ -4,12 +4,14 @@ $success: #00bfa5;
 $info: #3cabec;
 $warning :#ffca28;
 $danger :  #ff1744;
-$light : rgba(255,255,255,.75);
+$light : rgba(255,255,255,.5);
 $dark : #25252a;
 $yellow:#bc970a;
 $blue: #039be5;
 $dark-blue: #3d467b;
+$darkest-blue: #242839;
 $teal: #3bc6d4;
+$dark-teal: #11545f;
 $dark-red: #c34053;
 $purple: #c568fb;
 $pink: #f0328b;
@@ -28,7 +30,9 @@ $root-dark : 37, 37, 42;
 $root-yellow: 188, 151, 10;
 $root-blue: 3, 155, 229;
 $root-dark-blue: 61, 70, 123;
+$root-darkest-blue: 36, 40, 57;
 $root-teal: 59, 198, 212;
+$root-dark-teal: 17, 84, 95;
 $root-dark-red: 195, 64, 83;
 $root-purple: 197, 104, 251;
 $root-pink: 240, 50, 139;
@@ -64,7 +68,9 @@ $colors-root: map-merge(
                         yellow: $root-yellow,
                         blue: $root-blue,
                         dark-blue: $root-dark-blue,
+                        darkest-blue: $root-darkest-blue,
                         teal: $root-teal,
+                        dark-teal: $root-dark-teal,
                         dark-red: $root-dark-red,
                         purple: $root-purple,
                         pink: $root-pink,
@@ -107,7 +113,9 @@ $theme-colors-list: map-merge(
                         yellow: $yellow,
                         blue: $blue,
                         dark-blue: $dark-blue,
+                        darkest-blue: $darkest-blue,
                         teal: $teal,
+                        dark-teal: $dark-teal,
                         dark-red: $dark-red,
                         purple: $purple,
                         pink: $pink,

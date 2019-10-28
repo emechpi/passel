@@ -1,9 +1,27 @@
 .card {
     padding: .7rem;
+    box-shadow: 0 0.25rem 1rem rgba(0,0,0,.05);
     .number-form {
         .phone-icon {
             height: 33px;
             max-width: 100%;
+        }
+    }
+    .card-image-wrapper{
+        position: relative;
+        width:100%;
+        .card-image {
+            width: 100%;
+            border-radius: .5rem .5rem 0 0;
+            box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.1);
+        }
+        .card-title {
+            position: absolute;
+            bottom: 0;
+            right: 10px;
+            font-size: 0.9rem;
+            color: white;
+            font-weight: bold;
         }
     }
 }

@@ -32,7 +32,9 @@
         <div class="color-card bg-gradient-dark"></div>
         <div class="color-card bg-gradient-blue"></div>
         <div class="color-card bg-gradient-dark-blue"></div>
+        <div class="color-card bg-gradient-darkest-blue"></div>
         <div class="color-card bg-gradient-teal"></div>
+        <div class="color-card bg-gradient-dark-teal"></div>
         <div class="color-card bg-gradient-dark-red"></div>
         <div class="color-card bg-gradient-purple"></div>
         <div class="color-card bg-gradient-green"></div>
@@ -818,9 +820,9 @@
 <div class="row">
     <div class="col-12">
         <div class="card bg-gradient-dark">
-            <div class="d-flex flex-row-reverse number-form">
+            <div class="d-flex flex-row-reverse number-form align-items-center">
                 <img class="phone-icon" src="./dist/images/icons/mobile-phone-blue.svg" alt="">
-                <div class="material-input-wrapper">
+                <div class="material-input-wrapper w-100">
                     <input class="material-input input-dark-blue" placeholder="شماره مورد نظر خود را وارد نمایید" type="text">
                     <div class="small-selector">
                         <div class="selector-item selector-item-teal fill">
@@ -876,10 +878,55 @@
             <div class="d-flex mt-2">
                 <div class="d-flex flex-row-reverse w-100 text-right">
                    <span class="text-light w-50 dir-rtl">مبلع قابل پرداخت :</span>
-                    <button class="btn btn-sm btn-soft-primary w-50 text-large dir-rtl"> ۵۰,۲۰۰ ریال </button>
+                    <button class="btn btn-sm btn-soft-primary w-50 text-md dir-rtl"> ۵۰,۲۰۰ ریال </button>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="col-12 mt-5">
+        <div class="card bg-gradient-primary">
+            <div class="d-flex flex-row-reverse pb-2 border-bottom border-dark-red">
+                <button class="btn btn-sm btn-soft-primary w-50 d-flex justify-content-around">
+                    <object data="./dist/images/icons/matches-fire.svg" type=""></object> قبض گاز </button>
+                <div class="d-flex w-100 align-items-center">
+                    <p class="text-light text-xs mr-1 mb-0">۹۸/۴/۱ - ۹:۵۶</p>
+                    <object data="./dist/images/icons/calendar-clock.svg" type=""></object>
+                </div>
+            </div>
+            <div class="d-flex mt-2">
+                <div class="d-flex flex-row-reverse w-100 text-right">
+                    <span class="text-light w-50 dir-rtl">مبلع قابل پرداخت :</span>
+                    <button class="btn btn-sm btn-soft-primary w-50 text-md dir-rtl"> ۲۲۲,۲۰۰,۰۰۰  ریال </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="text-light mt-5">simple-cards</h2>
+<div class="col-12 mt-4">
+    <div class="card bg-darkest-blue text-right text-light text-sm font-weight-bold">
+        شسیشسی شیش سیشسیشسنیشکایشن اسکنمی شاسگیش تسینما شسیشسیشسی سینمباعزهیع یعهسشهعثا نمباعزهیع یعهسشهعثا
+    </div>
+</div>
+
+<h2 class="text-light mt-5">card with header</h2>
+<div class="col-12 mt-4">
+    <div class="card bg-darkest-blue text-right text-light text-sm font-weight-bold">
+        <h5 class="font-weight-bold">موضوع</h5>
+        <p>        شسیشسی شیش سیشسیشسنیشکایشن اسکنمی شاسگیش تسینما شسیشسیشسی سینمباعزهیع یعهسشهعثا نمباعزهیع یعهسشهعثا</p>
+    </div>
+</div>
+
+<h2 class="text-light mt-5">card with image</h2>
+<div class="col-12 mt-4">
+    <div class="card bg-darkest-blue text-right text-light text-sm font-weight-bold">
+        <div class="card-image-wrapper">
+            <img src="./dist/images/bg.jpeg" class="card-image" alt="">
+            <h5 class="font-weight-bold mt-3 card-title">موضوع</h5>
+        </div>
+        <p class="mt-3">        شسیشسی شیش سیشسیشسنیشکایشن اسکنمی شاسگیش تسینما شسیشسیشسی سینمباعزهیع یعهسشهعثا نمباعزهیع یعهسشهعثا</p>
+
     </div>
 </div>
 
@@ -887,8 +934,102 @@
 <div class="row">
     <div class="col-12">
         <select class="material-select">
-            <option>Default select</option>
+            <option>0 select</option>
+            <option>1 select</option>
+            <option>2 select</option>
+            <option>3 select</option>
         </select>
+    </div>
+</div>
+
+<h1 class="text-light mt-5">Main menu</h1>
+<button class="btn btn-dark-blue menu-toggler">
+    show menu
+</button>
+<nav class="navigation-menu">
+    <div class="nav-item profile-box">
+        <div class="nav-item__icon">
+            <object data="./dist/images/icons/single-neutral.svg" type=""></object>
+        </div>
+        <span>پروفایل</span>
+    </div>
+    <div class="nav-item">
+        <div class="nav-item__icon">
+            <object data="./dist/images/icons/task-list-check-1.svg" type=""></object>
+        </div>
+        <span>لیست تراکنشها</span>
+    </div>
+    <div class="nav-item">
+        <div class="nav-item__icon">
+            <object data="./dist/images/icons/email-action-download.svg" type=""></object>
+        </div>
+        <span>صندوق پیام ها </span>
+    </div>
+    <div class="nav-item">
+        <div class="nav-item__icon">
+            <object data="./dist/images/icons/notes-book-text.svg" type=""></object>
+        </div>
+        <span>درباره ما</span>
+    </div>
+</nav>
+
+<h1 class="text-light mt-5">Bank cards</h1>
+<div class="row">
+    <div class="col-12 col-lg-6">
+        <div class="bank-card bank-card-lg">
+            <div class="bank-card__row">
+                <object data="./dist/images/icons/day-white.svg" type=""></object>
+                <div class="text-right">
+                    <h6 class="font-weight-bold mb-1">حامد کیانی</h6>
+                    <p class="font-weight-bold text-sm">بانک دی </p>
+                </div>
+            </div>
+            <div class="bank-card__row center-row">
+                 <div class="card-number ">
+                     ۵۰۲۲ ۲۹۱۰ ۱۴۴۰ ۳۵۶۲
+                 </div>
+                <div class="card-expire">
+                    ۱۴۰۴/۰۲
+                </div>
+            </div>
+            <div class="bank-card__row">
+                <object class="bank-card__row__logo" data="./dist/images/icons/day-black.svg" type=""></object>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+        <div class="bank-card bank-card-md">
+            <div class="bank-card__row">
+                <div class="text-right d-flex align-items-center justify-content-between">
+                    <p class="font-weight-bold text-light text-md mb-1">حامد کیانی</p>
+                    <p class="font-weight-bold text-light text-md mb-1 mr-4">بانک رفاه کارگران </p>
+                </div>
+            </div>
+            <div class="bank-card__row center-row">
+                <div class="card-number text-sm text-white font-weight-bold mb-0">
+                    ۵۰۲۲ ۲۹۱۰ ۱۴۴۰ ۳۵۶۲
+                </div>
+                <div class="card-expire font-weight-bold text-white text-sm">
+                    ۱۴۰۴/۰۲
+                </div>
+            </div>
+            <div class="bank-card__row">
+                <object class="bank-card__row__logo" data="./dist/images/icons/Refah-black.svg" type=""></object>
+            </div>
+        </div>
+        <div class="bank-card bank-card-md mt-4 bg-pattern-2">
+            <div class="bank-card__row center-row d-flex align-items-center justify-content-between h-100">
+                <div class="text-white font-weight-bold mb-0">
+                    ۵۰۲۲ ۲۹-- ---- ۳۵۶۲
+                </div>
+                <div class="font-weight-bold text-white text-sm mr-4">
+                    بانک توسعه تعاون
+                </div>
+            </div>
+            <div class="bank-card__row">
+                <object class="bank-card__row__logo" data="./dist/images/icons/Tosee_Taavon-black.svg" type=""></object>
+            </div>
+        </div>
     </div>
 </div>
 
