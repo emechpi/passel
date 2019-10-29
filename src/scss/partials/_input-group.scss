@@ -1,5 +1,5 @@
 .material-input-wrapper {
-    max-width: 350px;
+    max-width: 380px;
     position: relative;
     .small-selector {
         position: absolute;
@@ -19,7 +19,7 @@
         font-size: 1rem;
         padding: .75rem 1.25rem 0 1.25rem;
         transition: all 0.3s ease-in-out;
-        max-width: 350px;
+        max-width: 380px;
         text-align: right;
         font-weight: bold;
         direction: rtl;
@@ -44,6 +44,12 @@
                 }
             }
         }
+    }
+    .material-input__icon {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        max-width: 25px;
     }
     label {
         position: absolute;

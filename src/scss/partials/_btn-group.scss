@@ -3,15 +3,14 @@
     @each $color, $value in $colors-root {
         &.btn-group-#{$color} {
             .btn:not(.active) {
+                border: 1px solid rgba(255,255,255,0.05);
                 background-color: rgba(var(--#{$color}), 0.4);
             }
             .btn.active {
+                border: 1px solid rgba(255,255,255,0.07);
                 background: linear-gradient(rgba(var(--#{$color}), 0.6), rgba(var(--#{$color}), 1));
                 box-shadow: 0 0.25rem 0.75rem rgba(var(--#{$color}), 0.4);
             }
         }
-    }
-    .btn {
-        border: none !important;
     }
 }

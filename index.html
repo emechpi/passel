@@ -976,7 +976,7 @@
 <h1 class="text-light mt-5">Bank cards</h1>
 <div class="row">
     <div class="col-12 col-lg-6">
-        <div class="bank-card bank-card-lg">
+        <div class="bank-card bank-card-lg bank-day">
             <div class="bank-card__row">
                 <object data="./dist/images/icons/day-white.svg" type=""></object>
                 <div class="text-right">
@@ -992,13 +992,10 @@
                     ۱۴۰۴/۰۲
                 </div>
             </div>
-            <div class="bank-card__row">
-                <object class="bank-card__row__logo" data="./dist/images/icons/day-black.svg" type=""></object>
-            </div>
         </div>
     </div>
     <div class="col-12 col-lg-6 mt-4 mt-lg-0">
-        <div class="bank-card bank-card-md">
+        <div class="bank-card bank-card-md bg-dark-teal bank-refah">
             <div class="bank-card__row">
                 <div class="text-right d-flex align-items-center justify-content-between">
                     <p class="font-weight-bold text-light text-md mb-1">حامد کیانی</p>
@@ -1013,24 +1010,65 @@
                     ۱۴۰۴/۰۲
                 </div>
             </div>
-            <div class="bank-card__row">
-                <object class="bank-card__row__logo" data="./dist/images/icons/Refah-black.svg" type=""></object>
-            </div>
         </div>
-        <div class="bank-card bank-card-md mt-4 bg-pattern-2">
+        <div class="bank-card bank-card-md mt-4 bank-tosee-taavon">
             <div class="bank-card__row center-row d-flex align-items-center justify-content-between h-100">
                 <div class="text-white font-weight-bold mb-0">
                     ۵۰۲۲ ۲۹-- ---- ۳۵۶۲
                 </div>
-                <div class="font-weight-bold text-white text-sm mr-4">
+                <div class="font-weight-bold text-white text-sm">
                     بانک توسعه تعاون
                 </div>
             </div>
-            <div class="bank-card__row">
-                <object class="bank-card__row__logo" data="./dist/images/icons/Tosee_Taavon-black.svg" type=""></object>
+        </div>
+    </div>
+</div>
+
+<h1 class="text-light mt-5">Bottom sheet</h1>
+<button class="btn btn-dark-blue bottom-sheet-toggler">
+    show bottom-sheet
+</button>
+
+<div class="bottom-sheet">
+    <span class="bottom-sheet-closer">×</span>
+    <div class="btn-group btn-group-dark-blue mt-4" role="group">
+        <button type="button" class="btn btn-dark-blue d-flex align-items-center active">
+            <object class="mr-2" data="./dist/images/icons/money_wallet_tab bar_pardakht.svg" type=""></object>
+            کیف پول</button>
+        <button type="button" class="btn btn-dark-blue d-flex align-items-center">
+            <object class="mr-2" data="./dist/images/icons/card_tab bar_pardakht.svg" type=""></object>
+            کارت بانکی</button>
+    </div>
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="material-input-wrapper w-100 mt-4">
+                <input class="material-input input-dark-blue w-100" type="text">
+                <object class="material-input__icon fill-dark-blue" data="./dist/images/icons/Maskan-blue.svg" type=""></object>
+                <label>شماره کارت</label>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="material-input-wrapper w-100 mt-4">
+                <input class="material-input input-dark-blue w-100" type="text">
+                <label>رمز دوم</label>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="material-input-wrapper w-100 mt-4">
+                <input class="material-input input-dark-blue w-100" type="text">
+                <label>تاریخ انقضا</label>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="material-input-wrapper w-100 mt-4">
+                <input class="material-input input-dark-blue w-100" type="text">
+                <label>CVV2</label>
             </div>
         </div>
     </div>
+    <button class="btn btn-lg py-3 btn-outline-dark-red top-radius w-75 mt-5">
+        ارسال
+    </button>
 </div>
 
 
