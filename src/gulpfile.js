@@ -17,6 +17,8 @@ const jsSrc = [
     './node_modules/isotope-layout/dist/isotope.pkgd.js',
     './node_modules/vanilla-lazyload/dist/lazyload.min.js',
     './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
+    './node_modules/persian-date/dist/persian-date.min.js',
+    './node_modules/persian-datepicker/dist/js/persian-datepicker.min.js',
     './scripts/*.js'];
 
 const scssSrc = ['./scss/app.scss'];

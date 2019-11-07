@@ -1,9 +1,9 @@
 
-.border         { border: $border-width solid $border-color !important; }
-.border-top     { border-top: $border-width solid $border-color !important; }
-.border-right   { border-right: $border-width solid $border-color !important; }
-.border-bottom  { border-bottom: $border-width solid $border-color !important; }
-.border-left    { border-left: $border-width solid $border-color !important; }
+.border         { border: $border-width solid !important; }
+.border-top     { border-top: $border-width solid !important; }
+.border-right   { border-right: $border-width solid !important; }
+.border-bottom  { border-bottom: $border-width solid !important; }
+.border-left    { border-left: $border-width solid !important; }
 
 @each $color, $value in $theme-colors-list {
   .border-#{$color} {
@@ -13,4 +13,7 @@
 
 .rounded-lg {
   border-radius: 0.375rem !important;
+}
+.border-smooth {
+  border-color: rgba(255,255,255,0.06) !important;
 }

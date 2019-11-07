@@ -30,6 +30,7 @@
     "isotope-layout": "^3.0.6",
     "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
+    "persian-datepicker": "^1.2.0",
     "vanilla-lazyload": "^12.0.0"
   },
   "dependencies": {

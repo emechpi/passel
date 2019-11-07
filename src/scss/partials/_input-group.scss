@@ -39,7 +39,7 @@
                 &::placeholder {
                     color: $value !important;
                 }
-                + label {
+                ~ label {
                     color: $value;
                 }
             }

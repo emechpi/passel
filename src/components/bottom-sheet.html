@@ -1,9 +1,35 @@
 <h1 class="text-light mt-5">Bottom sheet</h1>
-<button class="btn btn-dark-blue bottom-sheet-toggler">
-    show bottom-sheet
+<button class="btn btn-dark-blue bottom-sheet-toggler" data-target="#card-to-card">
+     bottom-sheet card-to-card
 </button>
 
-<div class="bottom-sheet">
+<button class="btn btn-dark-blue bottom-sheet-toggler my-3" data-target="#card-number">
+    bottom-sheet Enter-card-number
+</button>
+
+<button class="btn btn-dark-blue bottom-sheet-toggler my-3" data-target="#card-number2">
+    bottom-sheet Enter-card-number 2
+</button>
+
+<button class="btn btn-dark-blue bottom-sheet-toggler my-3" data-target="#search-city">
+    bottom-sheet search-city
+</button>
+
+
+<button class="btn btn-dark-blue bottom-sheet-toggler my-3" data-target="#calendar">
+    bottom-sheet calendar
+</button>
+<button class="btn btn-dark-blue bottom-sheet-toggler my-3" data-target="#invited-friends">
+    bottom-sheet invited-friends
+</button>
+<button class="btn btn-dark-blue bottom-sheet-toggler my-3" data-target="#passengers">
+    bottom-sheet passengers
+</button>
+
+<button class="btn btn-dark-blue bottom-sheet-toggler my-3" data-target="#filters">
+    bottom-sheet filters
+</button>
+<div class="bottom-sheet" id="card-to-card">
     <span class="bottom-sheet-closer">×</span>
     <div class="btn-group btn-group-dark-blue mt-4" role="group">
         <button type="button" class="btn btn-dark-blue d-flex align-items-center active">
@@ -44,3 +70,268 @@
         ارسال
     </button>
 </div>
+
+<div class="bottom-sheet pb-5" id="card-number">
+    <span class="bottom-sheet-closer">×</span>
+        <div class=" form-group d-flex flex-row-reverse align-items-center w-100 justify-content-end">
+            <button class="btn btn-dark-blue form-control-addon">
+                <img src="./dist/images/icons/close.svg" alt="">
+            </button>
+            <input type="number" class="form-control" id="exampleFormControlInput2" placeholder="شماره کارت مورد نظر خود را وارد نمایید">
+        </div>
+    <div class="mt-4">
+        <div class="bank-card bank-card-md justify-content-center bank-tosee-taavon font-weight-bold text-white mt-3">
+            <div class="bank-card__row">
+                <div class="text-right d-flex align-items-center justify-content-between text-white text-lg">
+                    <p class="mb-1">۵۰۲۲ ۲۹** **** ۳۵۶۲ </p>
+                    <p class="mb-1">حامد کیانی</p>
+                </div>
+            </div>
+            <div class="bank-card__row d-flex align-items-center justify-content-between text-xs">
+                <p class="mb-0">تاریخ انقضا:  ۹۸/۱۲</p>
+                <p class="mb-0">بانک توسعه تعاون</p>
+            </div>
+        </div>
+        <div class="bank-card bank-card-md justify-content-center bank-tejarat font-weight-bold text-white mt-3">
+            <div class="bank-card__row">
+                <div class="text-right d-flex align-items-center justify-content-between text-white text-lg">
+                    <p class="mb-1">۵۰۲۲ ۲۹** **** ۳۵۶۲ </p>
+                    <p class="mb-1">حامد کیانی</p>
+                </div>
+            </div>
+            <div class="bank-card__row d-flex align-items-center justify-content-between text-xs">
+                <p class="mb-0">تاریخ انقضا:  ۹۸/۱۲</p>
+                <p class="mb-0">بانک توسعه تعاون</p>
+            </div>
+        </div>
+        <div class="bank-card bank-card-md justify-content-center bank-shahr font-weight-bold text-white mt-3">
+            <div class="bank-card__row">
+                <div class="text-right d-flex align-items-center justify-content-between text-white text-lg">
+                    <p class="mb-1">۵۰۲۲ ۲۹** **** ۳۵۶۲ </p>
+                    <p class="mb-1">حامد کیانی</p>
+                </div>
+            </div>
+            <div class="bank-card__row d-flex align-items-center justify-content-between text-xs">
+                <p class="mb-0">تاریخ انقضا:  ۹۸/۱۲</p>
+                <p class="mb-0">بانک توسعه تعاون</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bottom-sheet pb-5" id="card-number2">
+    <span class="bottom-sheet-closer">×</span>
+    <div class=" form-group d-flex flex-row-reverse align-items-center w-100 justify-content-end">
+        <button class="btn btn-dark-blue form-control-addon">
+            تایید
+        </button>
+        <input type="text" class="form-control" value="۵۰۲۲ ۲۹۳۵ ۵۰۲۲ ۳۵۶۲" id="exampleFormControlInput2">
+    </div>
+    <div class="mt-4">
+        <div class="bank-card bank-card-md justify-content-center bank-tosee-taavon font-weight-bold text-white mt-3">
+            <div class="bank-card__row">
+                <div class="text-right d-flex align-items-center justify-content-between text-white text-sm">
+                    <p class="mb-1">۵۰۲۲ ۲۹** **** ۳۵۶۲ </p>
+                    <p class="mb-1">بانک توسعه تعاون</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bottom-sheet pb-5" id="search-city">
+    <span class="bottom-sheet-closer">×</span>
+    <div class=" form-group d-flex flex-row-reverse align-items-center w-100 justify-content-end">
+        <button class="btn btn-dark-blue form-control-addon">
+            <img src="./dist/images/icons/close.svg" alt="">
+        </button>
+        <input type="text" class="form-control" id="exampleFormControlInput2"  placeholder="جستجو بر اساس شهر">
+        <img src="./dist/images/icons/plane_takeoff.svg" class="ml-2" alt="">
+    </div>
+    <div class="d-flex flex-column align-items-center mt-3 w-100 text-white text-right">
+        <div class="border-bottom border-smooth py-2 w-100">
+           THR Tehran - Emam khomeini
+        </div>
+        <div class="border-bottom border-smooth py-2 w-100">
+            THR Tehran - mehrabad
+        </div>
+    </div>
+</div>
+
+<div class="bottom-sheet p-0 pb-5" id="calendar">
+    <span class="bottom-sheet-closer">×</span>
+    <div class="calendar-header ">
+        <p class="text-pink text-sm mb-0">تاریخ امروز</p>
+        <div class="calendar-value-wrapper">
+            <img src="./dist/images/icons/calendar.svg" alt="">
+            <input class="calendar-value d-flex" disabled id="calendarValue">
+            <button class="btn btn-primary form-control-addon mt-n3 mr-3">
+                <img src="./dist/images/icons/close.svg" alt="">
+            </button>
+        </div>
+    </div>
+    <div class="calendar-wrapper"></div>
+</div>
+
+<div class="bottom-sheet p-0 pb-5" id="invited-friends">
+    <span class="bottom-sheet-closer">×</span>
+    <div class="w-100 d-flex align-items-center justify-content-between m-3">
+        <button class="btn btn-dark-blue form-control-addon ml-3">
+            <img src="./dist/images/icons/close.svg" alt="">
+        </button>
+        <span class="text-lg text-white text-sm mr-3">لیست دوستان دعوت شده</span>
+    </div>
+    <div class="border-bottom border-light w-95"></div>
+    <div class="w-100 d-flex flex-column align-items-center">
+        <div class="w-100 d-flex align-items-center justify-content-between p-3 border-bottom border-light">
+            <span class="text-primary d-flex">
+                <span>۹۸/۴/۱ - ۲۲:۴۰</span>
+                <img src="./dist/images/icons/calendar-clock.svg" class="ml-2" alt="">
+            </span>
+            <span class="text-white">حامد کیانی</span>
+        </div>
+        <div class="w-100 d-flex align-items-center justify-content-between p-3 border-bottom border-light">
+            <span class="text-primary d-flex">
+                <span>۹۸/۴/۱ - ۲۲:۴۰</span>
+                <img src="./dist/images/icons/calendar-clock.svg" class="ml-2" alt="">
+            </span>
+            <span class="text-white">حامد کیانی</span>
+        </div>
+        <div class="w-100 d-flex align-items-center justify-content-between p-3 border-bottom border-light">
+            <span class="text-primary d-flex">
+                <span>۹۸/۴/۱ - ۲۲:۴۰</span>
+                <img src="./dist/images/icons/calendar-clock.svg" class="ml-2" alt="">
+            </span>
+            <span class="text-white">حامد کیانی</span>
+        </div>
+        <div class="w-100 d-flex align-items-center justify-content-between p-3 border-bottom border-light">
+            <span class="text-primary d-flex">
+                <span>۹۸/۴/۱ - ۲۲:۴۰</span>
+                <img src="./dist/images/icons/calendar-clock.svg" class="ml-2" alt="">
+            </span>
+            <span class="text-white">حامد کیانی</span>
+        </div>
+        <div class="w-100 d-flex align-items-center justify-content-between p-3 border-bottom border-light">
+            <span class="text-primary d-flex">
+                <span>۹۸/۴/۱ - ۲۲:۴۰</span>
+                <img src="./dist/images/icons/calendar-clock.svg" class="ml-2" alt="">
+            </span>
+            <span class="text-white">حامد کیانی</span>
+        </div>
+        <div class="w-100 d-flex align-items-center justify-content-between p-3 border-bottom border-light">
+            <span class="text-primary d-flex">
+                <span>۹۸/۴/۱ - ۲۲:۴۰</span>
+                <img src="./dist/images/icons/calendar-clock.svg" class="ml-2" alt="">
+            </span>
+            <span class="text-white">حامد کیانی</span>
+        </div>
+        <div class="w-100 d-flex align-items-center justify-content-between p-3 border-bottom border-light">
+            <span class="text-primary d-flex">
+                <span>۹۸/۴/۱ - ۲۲:۴۰</span>
+                <img src="./dist/images/icons/calendar-clock.svg" class="ml-2" alt="">
+            </span>
+            <span class="text-white">حامد کیانی</span>
+        </div>
+        <div class="w-100 d-flex align-items-center justify-content-between p-3 border-bottom border-light">
+            <span class="text-primary d-flex">
+                <span>۹۸/۴/۱ - ۲۲:۴۰</span>
+                <img src="./dist/images/icons/calendar-clock.svg" class="ml-2" alt="">
+            </span>
+            <span class="text-white">حامد کیانی</span>
+        </div>
+    </div>
+</div>
+
+<div class="bottom-sheet p-0 pb-5" id="passengers">
+    <span class="bottom-sheet-closer">×</span>
+    <div class="w-100 d-flex align-items-center justify-content-between m-3">
+        <button class="btn btn-dark-blue form-control-addon ml-3">
+            تایید
+        </button>
+        <span class="text-lg text-white text-sm mr-3">
+            مسافران
+            <img src="./dist/images/icons/passengers-white.svg" alt="">
+            </span>
+    </div>
+    <div class="border-bottom border-light w-95"></div>
+    <div class="w-100 d-flex flex-column align-items-center">
+        <div class="w-100 d-flex align-items-center justify-content-between p-3">
+            <div class="btn-group btn-group-sm btn-counter" role="group">
+                <button type="button" class="btn btn-dark-blue btn-plus">+</button>
+                <button type="button" class="btn btn-dark btn-value">1</button>
+                <button type="button" class="btn btn-dark-blue btn-mines">-</button>
+            </div>
+            <span class="text-white"><small class="text-blue mr-2 dir-rtl">(۱۲ سال به بالا)</small>بزرگسالان </span>
+        </div>
+        <div class="w-100 d-flex align-items-center justify-content-between p-3">
+            <div class="btn-group btn-group-sm btn-counter" role="group">
+                <button type="button" class="btn btn-dark-blue btn-plus">+</button>
+                <button type="button" class="btn btn-dark btn-value">1</button>
+                <button type="button" class="btn btn-dark-blue btn-mines">-</button>
+            </div>
+            <span class="text-white"><small class="text-blue mr-2 dir-rtl">(۱۲ سال به بالا)</small>کودک </span>
+        </div>
+        <div class="w-100 d-flex align-items-center justify-content-between p-3">
+            <div class="btn-group btn-group-sm btn-counter" role="group">
+                <button type="button" class="btn btn-dark-blue btn-plus">+</button>
+                <button type="button" class="btn btn-dark btn-value">1</button>
+                <button type="button" class="btn btn-dark-blue btn-mines">-</button>
+            </div>
+            <span class="text-white"><small class="text-blue mr-2 dir-rtl">(۱۲ سال به بالا)</small>نوزاد </span>
+        </div>
+    </div>
+</div>
+
+<div class="bottom-sheet p-0 pb-5" id="filters">
+    <span class="bottom-sheet-closer">×</span>
+    <div class="w-100 d-flex align-items-center justify-content-between m-3">
+        <button class="btn btn-dark-blue form-control-addon ml-3">
+            تایید
+        </button>
+        <span class="text-lg text-white text-sm mr-3">
+            فیلتر
+            <img src="./dist/images/icons/filter.svg" alt="">
+            </span>
+    </div>
+    <div class="border-bottom border-light w-95"></div>
+    <div class="w-100 d-flex flex-column align-items-center">
+        <div class="w-100 d-flex align-items-center justify-content-center p-3 overflow-x-auto border-bottom border-dark-blue">
+            <button class="btn btn-outline-dark-blue mx-2 no-wrap">کارت به کارت</button>
+            <button class="btn btn-outline-dark-blue mx-2 no-wrap">شارژ اینترنت</button>
+            <button class="btn btn-dark-blue mx-2 no-wrap">خرید شارژ </button>
+            <button class="btn btn-dark-blue mx-2 no-wrap">پرداخت</button>
+        </div>
+    </div>
+    <div class="w-100 d-flex flex-row-reverse align-items-center p-3 border-bottom border-dark-blue overflow-x-auto">
+        <div class="custom-control custom-radio mx-2">
+            <input type="radio" class="custom-control-input" id="11" name="radio-stacked" checked>
+            <label class="custom-control-label text-white no-wrap" for="11">تراکنش موفق</label>
+        </div>
+        <div class="custom-control custom-radio mx-2">
+            <input type="radio" class="custom-control-input" id="12" name="radio-stacked">
+            <label class="custom-control-label text-white no-wrap" for="12">تراکنش نا موفق</label>
+        </div>
+        <div class="custom-control custom-radio mx-2">
+            <input type="radio" class="custom-control-input" id="13" name="radio-stacked" >
+            <label class="custom-control-label text-white no-wrap" for="13">هردو</label>
+        </div>
+    </div>
+    <div class="w-100 p-3">
+        <h6 class="text-white w-100 text-right"><img src="./dist/images/icons/calendar-add.svg" alt=""> انتخاب بازه تاریخ</h6>
+        <div class="row pr-3">
+            <div class="col d-flex align-items-center flex-row-reverse">
+                <span class="text-white">  تا</span>
+                <div class="material-input-wrapper w-100">
+                    <input class="material-input input-dark-blue w-100" value="۰۲" type="text">
+                </div>
+            </div>
+            <div class="col d-flex align-items-center flex-row-reverse">
+                <span class="text-white">از </span>
+                <div class="material-input-wrapper w-100">
+                    <input class="material-input input-dark-blue w-100" value="۱۴۰۱" type="text">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

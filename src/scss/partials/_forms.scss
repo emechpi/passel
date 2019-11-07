@@ -41,6 +41,14 @@
             margin-left: 5px;
         }
     }
+    .form-control-addon {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 7px;
+        background: #2b2c39;
+    }
 }
 
 select.form-control {
