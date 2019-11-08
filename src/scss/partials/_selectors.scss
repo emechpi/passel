@@ -60,7 +60,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 0.4rem 0.6rem;
-        max-width: 300px;
+
         box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.2);
         @each $color, $value in $theme-colors-list {
             &.selector-item-#{$color} {
@@ -139,7 +139,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 0.3rem;
-        max-width: 300px;
+
         box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.2);
         @each $color, $value in $theme-colors-list {
             &.selector-item-#{$color} {

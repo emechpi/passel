@@ -37,6 +37,36 @@
                 font-weight: bold;
             }
         }
+        &.bank-tosee-taavon {
+            background-image: url("../images/tosee tavon@2x.png");
+        }
+        &.bank-refah {
+            background-image: url("../images/refah_kargaran.png");
+        }
+        &.bank-day {
+            background-image: url("../images/day.jpeg");
+        }
+        &.bank-tejarat {
+            background-image: url("../images/tejarat@2x.png");
+        }
+        &.bank-shahr {
+            background-image: url("../images/shahr@2x.png");
+        }
+        &.bank-iran-zamin {
+            background-image: url("../images/iran_zamin.png");
+        }
+        &.bank-ghavamin {
+            background-image: url("../images/ghavamin.png");
+        }
+        &.bank-eghtesade-novin {
+            background-image: url("../images/eghtesade_novin.png");
+        }
+        &.bank-gardeshgari{
+            background-image: url("../images/gardeshgari@2x.png");
+        }
+        &.bank-arman{
+            background-image: url("../images/arman@2x.png");
+        }
     }
     &.bank-card-md {
         .bank-card__row {
@@ -52,12 +82,36 @@
         @media (max-width: 350px) {
             font-size: 0.8rem !important;
         }
+        &.bank-tosee-taavon {
+            background-image: url("../images/tosee tavon@2x.png");
+        }
+        &.bank-refah {
+            background-image: url("../images/refah_kargaran.png");
+        }
+        &.bank-day {
+            background-image: url("../images/day.jpeg");
+        }
+        &.bank-tejarat {
+            background-image: url("../images/tejarat@2x.png");
+        }
+        &.bank-shahr {
+            background-image: url("../images/shahr@2x.png");
+        }
+        &.bank-iran-zamin {
+            background-image: url("../images/iran_zamin.png");
+        }
+        &.bank-ghavamin {
+            background-image: url("../images/ghavamin.png");
+        }
+        &.bank-eghtesade-novin {
+            background-image: url("../images/eghtesade_novin.png");
+        }
     }
     &.bank-tosee-taavon {
         background-image: url("../images/tosee tavon@2x.png");
     }
     &.bank-refah {
-        background-image: url("../images/refah.jpeg");
+        background-image: url("../images/refah_kargaran.png");
     }
     &.bank-day {
         background-image: url("../images/day.jpeg");
@@ -67,5 +121,14 @@
     }
     &.bank-shahr {
         background-image: url("../images/shahr@2x.png");
+    }
+    &.bank-iran-zamin {
+        background-image: url("../images/iran_zamin.png");
+    }
+    &.bank-ghavamin {
+        background-image: url("../images/ghavamin.png");
+    }
+    &.bank-eghtesade-novin {
+        background-image: url("../images/eghtesade_novin.png");
     }
 }

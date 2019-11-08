@@ -11,11 +11,11 @@ $('document').ready(function() {
     $('.bottom-sheet-toggler').on('click', function () {
         var targetElement = $(this).data('target');
         $('body').append('<div class="blurred-box"></div>');
-        $('body').addClass('has-bottom-sheet');
+        $('html').addClass('has-bottom-sheet');
         $(targetElement).addClass('show');
     });
     $('.bottom-sheet-closer').on('click', function () {
-        if($('body').hasClass('has-bottom-sheet')) {
+        if($('html').hasClass('has-bottom-sheet')) {
             closeBottomSheet();
         }else {
             return false;
@@ -53,6 +53,19 @@ $('document').ready(function() {
             enabled: false
         }
     });
+    $('.datepicker').persianDatepicker({
+        inline: false,
+        format: 'YY/MM/DD',
+        toolbox:{
+            calendarSwitch:{
+                enabled: false
+            }
+        },
+    });
+    $('.list-group .list-group-item').on('click', function () {
+        $(this).siblings('.list-group-item').removeClass('expand');
+        $(this).toggleClass('expand');
+    });
 });
 function closeMenu() {
     $('body').removeClass('has-menu');
@@ -60,7 +73,7 @@ function closeMenu() {
     $('.navigation-menu').removeClass('show');
 }
 function closeBottomSheet() {
-    $('body').removeClass('has-bottom-sheet');
+    $('html').removeClass('has-bottom-sheet');
     $('.blurred-box').remove();
     $('.bottom-sheet').removeClass('show');
 }

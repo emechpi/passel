@@ -1,6 +1,9 @@
 html {
     -webkit-tap-highlight-color: rgba(31, 45, 61, 0);
     overflow-x:hidden;
+    &.has-bottom-sheet{
+        overflow: hidden !important;
+    }
 }
 
 body {
@@ -10,9 +13,6 @@ body {
     background-color: $body-bg;
     overflow-x:hidden;
     overflow-y: auto;
-    &.omnisearch-open nav{
-        z-index: auto !important;
-    }
 }
 
 .dark-overlay {
@@ -292,10 +292,16 @@ blockquote {
     box-shadow: $image-smooth-shadow;
 }
 .color-card {
-    width: 50px;
+    width: 200px;
     height: 50px;
     border-radius: $border-radius*2;
     margin: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
     @each $color, $value in $colors-root {
         &.bg-#{$color} {
             box-shadow: 0 0.25rem 0.75rem rgba(var(--#{$color}), 0.3);
@@ -330,4 +336,7 @@ blockquote {
 }
 .overflow-x-auto {
     overflow-x: auto;
+}
+.d-webkit-box {
+    display: -webkit-box !important;
 }

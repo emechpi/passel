@@ -4,6 +4,11 @@
         background-color: $value !important;
     }
 }
+@each $color, $value in $colors-root {
+    .bg-alpha-#{$color} {
+        background-color: rgba(var(--#{$color}), 0.25) !important;
+    }
+}
 @each $color, $value in $theme-colors-list {
     .text-#{$color} {
         color: $value !important;

@@ -1,0 +1,106 @@
+.calendar-wrapper, .datepicker-container {
+    width: 100%;
+    .datepicker-container-inline .datepicker-plot-area, .datepicker-plot-area{
+        background-color: #242837;
+        border: none;
+        color: white !important;
+        font-family: $primary-font-family-regular;
+        box-shadow: none;
+        .datepicker-navigator {
+            width: 100%;
+            float: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            .pwt-btn{
+                background-color: transparent;
+                color: white;
+                font-size: 1.2rem;
+                &-switch {
+                    color: $pink;
+                    width: auto;
+                }
+            }
+        }
+        .datepicker-grid-view {
+            .datepicker-day-view .month-grid-box{
+                .header-row {
+                    &-cell {
+                        color: white;
+                        background-color: transparent;
+                        font-size: 1rem;
+                    }
+                }
+                .table-days {
+                    tbody tr td {
+                        span {
+                            color: white;
+                            background-color: transparent;
+                            font-size: 1.1rem;
+                            font-weight: bold;
+                            margin-bottom: 0.8rem;
+                            &.other-month {
+                                color: rgba($white, 0.4);
+                                font-size: 1rem;
+                            }
+                        }
+                        &.today {
+                            span {
+                                color: $pink;
+                            }
+                        }
+                        &.selected {
+                            span {
+                                font-size: 1.2rem;
+                                border: 1px solid $primary;
+                                border-radius: 0.5rem;
+                                background-color: rgba($primary, 0.4);
+                                box-shadow: 0 0px 15px rgba($primary, 0.9);
+                                width: 35px;
+                                height: 35px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin: 0 auto 0.8rem auto;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            .datepicker-month-view {
+                .month-item {
+                    background-color: transparent;
+                    border: 1px solid rgba(white, 0.1);
+                    color: white;
+                    font-size: 1rem;
+                    margin: 4px 0;
+                    border-radius: 8px;
+                    &.month-item-disable {
+                        font-size: .9rem;
+                        color: rgba($white, 0.4);
+                    }
+                    &.selected {
+                        border-color: rgba($pink, 0.5);
+                    }
+                }
+            }
+        }
+        .toolbox .pwt-btn-today {
+            color: $white;
+            background-color: transparent;
+            border-radius: 0.5rem;
+            border: 1px solid rgba($pink, 0.5);
+            font-size: 0.75rem;
+        }
+        .toolbox .pwt-btn-submit {
+            @extend .btn;
+            @extend .btn-pink;
+            display: flex;
+            align-items: center;
+        }
+    }
+    background: transparent;
+}
