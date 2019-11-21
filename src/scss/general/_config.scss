@@ -13,8 +13,12 @@ body {
     background-color: $body-bg;
     overflow-x:hidden;
     overflow-y: auto;
+    font-size: 16px;
 }
-
+p{
+    direction: rtl;
+    text-align: right;
+}
 .dark-overlay {
     position: fixed;
     width: 100vw;
@@ -29,7 +33,6 @@ b,
 strong {
     font-weight: 700;
 }
-
 
 a:hover {
     text-decoration: none;
@@ -336,6 +339,9 @@ blockquote {
 }
 .overflow-x-auto {
     overflow-x: auto;
+    &::-webkit-scrollbar {
+        display: none !important;
+    }
 }
 .d-webkit-box {
     display: -webkit-box !important;

@@ -1,0 +1,132 @@
+{% extends "../components/layout.html" %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-12 col-md-3">
+        <ul class="components">
+            <h3>Components List</h3>
+            <li class="components-item">
+                <a href="#colors">colors</a>
+            </li>
+            <li class="components-item">
+                <a href="#background-variants">background variants</a>
+            </li>
+            <li class="components-item">
+                <a href="#input-variants">input variants</a>
+            </li>
+            <li class="components-item">
+                <a href="#button-variants">button variants</a>
+            </li>
+            <li class="components-item">
+                <a href="#toasts">Toasts</a>
+            </li>
+            <li class="components-item">
+                <a href="#text-boxes">Text-boxes</a>
+            </li>
+            <li class="components-item">
+                <a href="#popup">Popup</a>
+            </li>
+            <li class="components-item">
+                <a href="#selectors">Selectors</a>
+            </li>
+            <li class="components-item">
+                <a href="#buttons">Buttons</a>
+            </li>
+            <li class="components-item">
+                <a href="#tabs">Tabs</a>
+            </li>
+            <li class="components-item">
+                <a href="#cards">Cards</a>
+            </li>
+            <li class="components-item">
+                <a href="#simple-cards">simple cards</a>
+            </li>
+
+            <li class="components-item">
+                <a href="#card-with-header">Card with Header</a>
+            </li>
+            <li class="components-item">
+                <a href="#card-with-image">Card with image</a>
+            </li>
+            <li class="components-item">
+                <a href="#dropdown">dropdown list</a>
+            </li>
+            <li class="components-item">
+                <a href="#bank-cards">Bank cards</a>
+            </li>
+            <li class="components-item">
+                <a href="#bottomsheet">bottom sheet</a>
+            </li>
+            <li class="components-item">
+                <a href="#list">Lists</a>
+            </li>
+            <li class="components-item">
+                <a href="#bottom-tabs">bottom tabs</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-12 col-md-9">
+        {% include "../components/colors.html" %}
+        {% include "../components/toasts.html" %}
+        {% include "../components/text-boxes.html" %}
+        {% include "../components/popup.html" %}
+        {% include "../components/selectors.html" %}
+        {% include "../components/button.html" %}
+        {% include "../components/tabs.html" %}
+        {% include "../components/cards.html" %}
+        {% include "../components/dropdown.html" %}
+        {% include "../components/main-menu.html" %}
+        {% include "../components/bank-cards.html" %}
+        {% include "../components/bottom-sheet.html" %}
+        {% include "../components/lists.html" %}
+        {% include "../components/bottom-tabs.html" %}
+    </div>
+</div>
+
+<style>
+    .components {
+        position: fixed;
+        left: 5vw;
+        top: 10vh;
+        overflow-y: auto;
+        max-height: 90vh;
+    }
+    .components::-webkit-scrollbar-track {
+         -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+         border-radius: 10px;
+         background-color: #F5F5F5;
+         opacity: 0;
+         display: none;
+     }
+
+    .components::-webkit-scrollbar {
+         opacity: 0;
+         display: none;
+         height: 100%;
+         width: 3px;
+         background-color: #F5F5F5;
+     }
+
+    .components::-webkit-scrollbar-thumb {
+         opacity: 0;
+         display: none;
+         border-radius: 10px;
+         width: 3px;
+         height: 30px;
+         -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+         background-color: #777;
+     }
+    .components-item {
+        margin-bottom: 10px;
+    }
+    .components-item a {
+        text-transform: capitalize;
+    }
+    .bottom-tabs {
+        display: none;
+    }
+</style>
+
+{% endblock %}
+

@@ -95,22 +95,3 @@ select.form-control {
         color: $input-color;
     }
 }
-
-$form-validation-states: () !default;
-// stylelint-disable-next-line scss/dollar-variable-default
-$form-validation-states: map-merge(
-                (
-                        "valid": (
-                                "color": $green,
-                                "icon": $form-feedback-icon-valid
-                        ),
-                        "invalid": (
-                                "color": $red,
-                                "icon": $form-feedback-icon-invalid
-                        ),
-                ),
-                $form-validation-states
-);
-@each $state, $data in $form-validation-states {
-    @include form-validation-state($state, map-get($data, color), map-get($data, icon));
-}

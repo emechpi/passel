@@ -10,7 +10,7 @@ $('document').ready(function() {
     });
     $('.bottom-sheet-toggler').on('click', function () {
         var targetElement = $(this).data('target');
-        $('body').append('<div class="blurred-box"></div>');
+        $('body').append('<div class="blurred-box" onclick="closeBottomSheet()"></div>');
         $('html').addClass('has-bottom-sheet');
         $(targetElement).addClass('show');
     });
@@ -65,7 +65,7 @@ $('document').ready(function() {
     $('.list-group .list-group-item').on('click', function () {
         $(this).siblings('.list-group-item').removeClass('expand');
         $(this).toggleClass('expand');
-    });
+    })
 });
 function closeMenu() {
     $('body').removeClass('has-menu');

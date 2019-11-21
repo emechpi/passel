@@ -1,7 +1,7 @@
 .simple-selector {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     .selector-item {
         margin: 0 3px;
         width: 75px;
@@ -38,6 +38,8 @@
         p {
             margin-bottom: 0;
             font-size: 0.9rem;
+            text-align: center;
+            white-space: nowrap;
         }
         h3 {
             font-weight: 600;
@@ -60,11 +62,25 @@
         align-items: center;
         justify-content: space-between;
         padding: 0.4rem 0.6rem;
-
+        border: 1px solid rgba(255,255,255,.2);
         box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.2);
+        .selector-item-description .selector-item-description_subtitle{
+            margin-bottom: 0;
+            font-size: .8rem;
+        }
+        .selector-item-price {
+            background: rgba(255,255,255,.2);
+            padding: .3rem .6rem;
+            border-radius: $border-radius;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            span {
+                font-size: 0.8rem;
+            }
+        }
         @each $color, $value in $theme-colors-list {
             &.selector-item-#{$color} {
-                border: 1px solid rgba(255,255,255,.2);
                 svg {
                     fill: $value !important;
                 }
@@ -75,8 +91,6 @@
                             color: $value;
                         }
                         .selector-item-description_subtitle {
-                            margin-bottom: 0;
-                            font-size: .8rem;
                             color: lighten($value, 35%);
                         }
                     }
@@ -86,17 +100,6 @@
                 }
                 &.fill {
                     background: rgba(var(--#{$color}), 0.4);
-                }
-                .selector-item-price {
-                    background: rgba(255,255,255,.2);
-                    padding: .3rem .6rem;
-                    border-radius: $border-radius;
-                    color: white;
-                    font-size: 1.2rem;
-                    font-weight: bold;
-                    span {
-                        font-size: 0.8rem;
-                    }
                 }
             }
         }
