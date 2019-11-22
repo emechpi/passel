@@ -65,7 +65,11 @@ $('document').ready(function() {
     $('.list-group .list-group-item').on('click', function () {
         $(this).siblings('.list-group-item').removeClass('expand');
         $(this).toggleClass('expand');
-    })
+    });
+    $('.go-to-top').on('click', function () {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
 });
 function closeMenu() {
     $('body').removeClass('has-menu');

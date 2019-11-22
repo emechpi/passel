@@ -18,11 +18,10 @@
 <body class="" style="padding-bottom: 20rem">
 <section class="main-content bg-transparent py-5 container">
     
-
 <div class="row">
-    <div class="col-12 col-md-3">
-        <ul class="components">
-            <h3>Components List</h3>
+    <div class="col-12 col-lg-3">
+        <ul class="components" id="components">
+            <h3 class="pr-3">Components List</h3>
             <li class="components-item">
                 <a href="#colors">colors</a>
             </li>
@@ -70,6 +69,9 @@
                 <a href="#dropdown">dropdown list</a>
             </li>
             <li class="components-item">
+                <a href="#main-menu">main menu</a>
+            </li>
+            <li class="components-item">
                 <a href="#bank-cards">Bank cards</a>
             </li>
             <li class="components-item">
@@ -83,7 +85,7 @@
             </li>
         </ul>
     </div>
-    <div class="col-12 col-md-9">
+    <div class="col-12 col-lg-9 position-relative">
         <h1 class="text-light mt-5" id="colors">Colors</h1>
 <div class="row">
     <div class="col-12 d-flex flex-wrap">
@@ -302,7 +304,7 @@
 
         <h1 class="text-light mt-5" id="text-boxes">Text-boxes</h1>
 <div class="row">
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-lg-6">
         <div class="form-group">
             <label for="exampleFormControlInput1"><object data="./dist/images/icons/mobile-phone-2.svg"></object>  شماره موبایل </label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="شماره مورد نظر را وارد نمایید">
@@ -331,7 +333,7 @@
             </div>
         </div>
     </div>
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-lg-6">
         <div class="form-group mt-5">
             <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="شماره کارت مورد نظر خود را وارد نمایید">
         </div>
@@ -434,7 +436,7 @@
 
         <h1 class="text-light mt-5" id="selectors">Selectors</h1>
 <div class="row">
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-lg-4">
         <div class="simple-selector">
             <div class="selector-item selector-item-dark-blue">
                 <img src="./dist/images/talia-dark.png" alt="" class="selector-item-icon">
@@ -506,7 +508,7 @@
             </div>
         </div>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-lg-4">
         <div class="simple-selector mt-4">
             <div class="selector-item selector-item-teal fill">
                 <img src="./dist/images/hamrah-white.png" alt="" class="selector-item-icon">
@@ -522,7 +524,7 @@
             </div>
         </div>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-lg-4">
         <div class="small-selector mt-4">
             <div class="selector-item selector-item-teal fill">
                 <img src="./dist/images/hamrah-white.png" alt="" class="selector-item-icon">
@@ -916,7 +918,7 @@
 
         <h1 class="text-light mt-5" id="tabs">Tabs</h1>
 <div class="row">
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-lg-4">
         <div class="btn-group btn-group-dark-blue mt-4" role="group">
             <button type="button" class="btn btn-dark-blue active">شارژ مستقیم </button>
             <button type="button" class="btn btn-dark-blue">پین شارژ</button>
@@ -2146,28 +2148,30 @@
 </div>
 
         <h1 class="text-light mt-5" id="bottom-tabs">Bottom Tabs</h1>
-<div class="bottom-tabs">
-    <ul class="nav nav-tabs nav-tabs-warning" id="myTab" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first-tab" aria-selected="true">tabFirst</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second-tab" aria-selected="false">tabSecond</a>
-        </li>
-    </ul>
-</div>
-<div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
-        <h1>tabFirst Content</h1>
-    </div>
-    <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
-        <h1>tabSecond Content </h1>
+        <div class="bottom-tabs demo">
+            <ul class="nav nav-tabs nav-tabs-warning border-0" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first-tab" aria-selected="true">tabFirst</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second-tab" aria-selected="false">tabSecond</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+                <h1>tabFirst Content</h1>
+            </div>
+            <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+                <h1>tabSecond Content </h1>
+            </div>
+        </div>
     </div>
 </div>
 
-    </div>
-</div>
-
+<button class="btn btn-primary d-block d-lg-none go-to-top">
+    <img src="./dist/images/icons/arrow-up.svg" alt="">
+</button>
 <style>
     .components {
         position: fixed;
@@ -2176,30 +2180,32 @@
         overflow-y: auto;
         max-height: 90vh;
     }
+    @media (max-width: 991px) {
+        .components {
+            position: relative;
+        }
+    }
     .components::-webkit-scrollbar-track {
          -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
          border-radius: 10px;
-         background-color: #F5F5F5;
+         background-color: #333333;
          opacity: 0;
-         display: none;
      }
 
     .components::-webkit-scrollbar {
          opacity: 0;
-         display: none;
          height: 100%;
          width: 3px;
-         background-color: #F5F5F5;
+         background-color: #333333;
      }
 
     .components::-webkit-scrollbar-thumb {
          opacity: 0;
-         display: none;
          border-radius: 10px;
          width: 3px;
          height: 30px;
          -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-         background-color: #777;
+         background-color: #F5F5F5;
      }
     .components-item {
         margin-bottom: 10px;
@@ -2207,8 +2213,15 @@
     .components-item a {
         text-transform: capitalize;
     }
-    .bottom-tabs {
-        display: none;
+    .bottom-tabs.demo {
+        position: relative;
+        width: auto;
+    }
+    .go-to-top {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        width: auto;
     }
 </style>
 

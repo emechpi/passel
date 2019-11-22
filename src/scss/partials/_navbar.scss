@@ -1,6 +1,6 @@
 nav {
     position: fixed;
-    left: -80vw;
+    right: -80vw;
     top: 0;
     width: 75vw;
     height: 100vh;
@@ -46,6 +46,6 @@ nav {
         }
     }
     &.show {
-        left: 0;
+        right: 0;
     }
 }
