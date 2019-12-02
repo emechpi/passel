@@ -68,7 +68,7 @@
             </li>
         </ul>
     </div>
-    <div class="col-12 col-lg-9 position-relative">
+    <div class="col-12 col-lg-9 position-relative mt-5 mt-lg-0">
         {% include "../components/colors.html" %}
         {% include "../components/toasts.html" %}
         {% include "../components/text-boxes.html" %}
@@ -94,10 +94,10 @@
             </ul>
         </div>
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+            <div class="tab-pane show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                 <h1>tabFirst Content</h1>
             </div>
-            <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+            <div class="tab-pane" id="second" role="tabpanel" aria-labelledby="second-tab">
                 <h1>tabSecond Content </h1>
             </div>
         </div>
@@ -147,6 +147,8 @@
     }
     .components-item a {
         text-transform: capitalize;
+        color: white;
+        cursor: pointer;
     }
     .bottom-tabs.demo {
         position: relative;

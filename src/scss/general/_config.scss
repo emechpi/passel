@@ -1,6 +1,7 @@
 html {
     -webkit-tap-highlight-color: rgba(31, 45, 61, 0);
     overflow-x:hidden;
+    font-size: 16px;
     &.has-bottom-sheet{
         overflow: hidden !important;
     }
@@ -339,6 +340,7 @@ blockquote {
 }
 .overflow-x-auto {
     overflow-x: auto;
+    z-index: 9999999;
     &::-webkit-scrollbar {
         display: none !important;
     }

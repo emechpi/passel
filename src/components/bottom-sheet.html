@@ -30,7 +30,7 @@
     bottom-sheet filters
 </button>
 <div class="bottom-sheet" id="card-to-card">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class="btn-group btn-group-dark-blue mt-4" role="group">
         <button type="button" class="btn btn-dark-blue d-flex align-items-center active">
             <object class="mr-2" data="./dist/images/icons/money_wallet_tab bar_pardakht.svg" type=""></object>
@@ -72,7 +72,7 @@
 </div>
 
 <div class="bottom-sheet pb-5" id="card-number">
-    <span class="bottom-sheet-closer">×</span>
+
         <div class=" form-group d-flex flex-row-reverse align-items-center w-100 justify-content-end">
             <button class="btn btn-dark-blue form-control-addon">
                 <img src="./dist/images/icons/close.svg" alt="">
@@ -120,7 +120,7 @@
 </div>
 
 <div class="bottom-sheet pb-5" id="card-number2">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class=" form-group d-flex flex-row-reverse align-items-center w-100 justify-content-end">
         <button class="btn btn-dark-blue form-control-addon">
             تایید
@@ -140,7 +140,7 @@
 </div>
 
 <div class="bottom-sheet pb-5" id="search-city">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class=" form-group d-flex flex-row-reverse align-items-center w-100 justify-content-end">
         <button class="btn btn-dark-blue form-control-addon">
             <img src="./dist/images/icons/close.svg" alt="">
@@ -159,13 +159,13 @@
 </div>
 
 <div class="bottom-sheet p-0 pb-5" id="calendar">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class="calendar-header ">
         <p class="text-pink text-sm mb-0">تاریخ امروز</p>
         <div class="calendar-value-wrapper">
             <img src="./dist/images/icons/calendar.svg" alt="">
             <input class="calendar-value d-flex" disabled id="calendarValue">
-            <button class="btn btn-primary form-control-addon mt-n3 mr-3">
+            <button class="btn btn-primary form-control-addon mt-n3 mr-3" onclick="closeBottomSheet()">
                 <img src="./dist/images/icons/close.svg" alt="">
             </button>
         </div>
@@ -174,15 +174,15 @@
 </div>
 
 <div class="bottom-sheet p-0 pb-5" id="invited-friends">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class="w-100 d-flex align-items-center justify-content-between m-3">
-        <button class="btn btn-dark-blue form-control-addon ml-3">
+        <button class="btn btn-dark-blue form-control-addon ml-3" onclick="closeBottomSheet()">
             <img src="./dist/images/icons/close.svg" alt="">
         </button>
         <span class="text-lg text-white text-sm mr-3">لیست دوستان دعوت شده</span>
     </div>
     <div class="border-bottom border-light w-95"></div>
-    <div class="w-100 d-flex flex-column align-items-center">
+    <div class="w-100 d-flex flex-column align-items-center bottom-sheet-items">
         <div class="w-100 d-flex align-items-center justify-content-between p-3 border-bottom border-light">
             <span class="text-primary d-flex">
                 <span>۹۸/۴/۱ - ۲۲:۴۰</span>
@@ -243,9 +243,9 @@
 </div>
 
 <div class="bottom-sheet p-0 pb-5" id="passengers">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class="w-100 d-flex align-items-center justify-content-between m-3">
-        <button class="btn btn-dark-blue form-control-addon ml-3">
+        <button class="btn btn-dark-blue form-control-addon ml-3" onclick="closeBottomSheet()">
             تایید
         </button>
         <span class="text-lg text-white text-sm mr-3">
@@ -283,9 +283,9 @@
 </div>
 
 <div class="bottom-sheet p-0 pb-5" id="filters">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class="w-100 d-flex align-items-center justify-content-between m-3">
-        <button class="btn btn-dark-blue form-control-addon ml-3">
+        <button class="btn btn-dark-blue form-control-addon ml-3" onclick="closeBottomSheet()">
             تایید
         </button>
         <span class="text-lg text-white text-sm mr-3">

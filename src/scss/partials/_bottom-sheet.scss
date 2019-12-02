@@ -4,7 +4,7 @@
     left: 2vw;
     width: 96vw;
     height: auto;
-    max-height: 90vh;
+    max-height: 85vh;
     border-radius: 1rem 1rem 0 0;
     border: 1px solid rgba(255,255,255,0.1);
     padding: 0.7rem 0.7rem 0 0.7rem;
@@ -14,14 +14,11 @@
     background-color: rgba(36, 40, 55, 1);
     transition: all 0.3s ease-in-out;
     z-index: 999;
-    .bottom-sheet-closer{
-        position: absolute;
-        left: 45vw;
-        top: -30px;
-        transform: scale(2);
-    }
     &.show {
         bottom: 0;
+    }
+    .bottom-sheet-items{
+        overflow-y: auto;
     }
 }
 

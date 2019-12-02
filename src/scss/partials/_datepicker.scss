@@ -70,8 +70,8 @@
                     }
                 }
             }
-            .datepicker-month-view {
-                .month-item {
+            .datepicker-month-view, .datepicker-year-view {
+                .month-item, .year-item {
                     background-color: transparent;
                     border: 1px solid rgba(white, 0.1);
                     color: white;

@@ -18,6 +18,8 @@ const jsSrc = [
     './node_modules/vanilla-lazyload/dist/lazyload.min.js',
     './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
     './node_modules/persian-date/dist/persian-date.min.js',
+    './node_modules/sumoselect/jquery.sumoselect.min.js',
+    './node_modules/jquery-touchswipe/jquery.touchSwipe.min.js',
     './node_modules/persian-datepicker/dist/js/persian-datepicker.min.js',
     './scripts/*.js'];
 

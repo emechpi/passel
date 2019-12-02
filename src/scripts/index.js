@@ -14,13 +14,6 @@ $('document').ready(function() {
         $('html').addClass('has-bottom-sheet');
         $(targetElement).addClass('show');
     });
-    $('.bottom-sheet-closer').on('click', function () {
-        if($('html').hasClass('has-bottom-sheet')) {
-            closeBottomSheet();
-        }else {
-            return false;
-        }
-    });
     $('.btn-counter .btn-plus').on('click', function () {
         var value = parseInt($(this).siblings('.btn-value').text());
         $(this).siblings('.btn-value').html(value + 1);
@@ -69,6 +62,32 @@ $('document').ready(function() {
     $('.go-to-top').on('click', function () {
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
+    });
+    $('#mnmn').on('click', function () {
+        $('#myTab li:first-child a').tab('show')
+    });
+    $(".tab-content").swipe( {
+        swipeLeft:function() {
+            var navElement = $(this).data('nav');
+            $("#" + navElement).find(".nav-item .active").parent().next('li').find('a').tab('show');
+        },
+        swipeRight:function() {
+            var navElement = $(this).data('nav');
+            $("#" + navElement).find(".nav-item .active").parent().prev('li').find('a').tab('show');
+        },
+    });
+    $(function() {
+        $(".overflow-x-auto").swipe( {
+            allowPageScroll:"horizontal",
+            swipeStatus:function() {
+                return false;
+            }
+        });
+    });
+
+    $('.material-select').SumoSelect({
+        nativeOnDevice: [],
+        floatWidth: 5000
     });
 });
 function closeMenu() {
