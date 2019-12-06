@@ -150,7 +150,8 @@
 <h1 class="text-light mt-5" id="toasts">Toasts</h1>
 <div class="row">
     <div class="col-12">
-        <div class="toast toast-success show">
+        .toast-top
+        <div class="toast toast-success toast-top demo">
             <div class="toast-body has-icon">
                 <div class="toast-message">
                     عملیات موفق
@@ -165,7 +166,8 @@
                 </div>
             </div>
         </div>
-        <div class="toast toast-danger show">
+        .toast-center
+        <div class="toast toast-danger toast-center demo">
             <div class="toast-body has-icon">
                 <div class="toast-message">
                     عملیات ناموفق
@@ -180,7 +182,8 @@
                 </div>
             </div>
         </div>
-        <div class="toast toast-warning show">
+        .toast-bottom
+        <div class="toast toast-warning toast-bottom demo">
             <div class="toast-body has-icon">
                 <div class="toast-message">
                     خطا در عملیات
@@ -195,7 +198,7 @@
                 </div>
             </div>
         </div>
-        <div class="toast toast-secondary show">
+        <div class="toast toast-secondary demo">
             <div class="toast-body has-icon">
                 <div class="toast-message">
                     خروج
@@ -213,7 +216,7 @@
                 <button class="btn btn-secondary">خروج</button>
             </div>
         </div>
-        <div class="toast toast-info show">
+        <div class="toast toast-info demo">
             <div class="toast-body has-icon">
                 <div class="toast-message">
                     اینترنت متصل نیست
@@ -299,7 +302,7 @@
 <h1 class="text-light mt-5" id="popup">Popup</h1>
 <div class="row">
     <div class="col-12">
-        <div class="popup">
+        <div class="popup demo">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="216.149" height="118.479" viewBox="0 0 216.149 118.479">
                 <defs>
                     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.751" gradientUnits="objectBoundingBox">
@@ -325,7 +328,7 @@
                 <button class="btn btn-sm btn-secondary">انصراف</button>
             </div>
         </div>
-        <div class="popup mt-3">
+        <div class="popup demo mt-3">
             <h5 class="text-white">موضوع </h5>
             <p class="text-light mt-1"> شیشیشیشیشیشیشیشیشیشیش شیشیشیششیشیشیشی شیشیشیشیشیشی</p>
             <div class="popup-actions mt-3">
@@ -333,7 +336,7 @@
                 <button class="btn btn-sm btn-secondary">انصراف</button>
             </div>
         </div>
-        <div class="popup mt-3 align-items-start">
+        <div class="popup demo mt-3 align-items-start">
             <h5 class="text-white">
                 <object data="./dist/images/icons/edit.svg" type=""></object>
                 ویرایش کارت</h5>
@@ -672,6 +675,7 @@
         <div class="custom-control custom-switch">
             <input type="checkbox" class="custom-control-input" id="customSwitch1">
             <label class="custom-control-label" for="customSwitch1">Toggle passel</label>
+            <span class="custom-control-icon"></span>
         </div>
     </div>
     <div class="col-12 mt-4 d-flex">
@@ -1038,10 +1042,14 @@
 <div class="row">
     <div class="col-12">
         <select class="material-select">
-            <option>0 select</option>
-            <option>1 select</option>
-            <option>2 select</option>
-            <option>3 select</option>
+            <option>Tehran, Imam khomeini</option>
+            <option>Tehran, Imam khomeini</option>
+            <option>Tehran, Imam khomeini</option>
+            <option>Tehran, Imam khomeini</option>
+            <option>Tehran, Imam khomeini</option>
+            <option>Tehran, Imam khomeini</option>
+            <option>Tehran, Imam khomeini</option>
+            <option>Tehran, Imam khomeini</option>
         </select>
     </div>
 </div>
@@ -1160,7 +1168,7 @@
     bottom-sheet filters
 </button>
 <div class="bottom-sheet" id="card-to-card">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class="btn-group btn-group-dark-blue mt-4" role="group">
         <button type="button" class="btn btn-dark-blue d-flex align-items-center active">
             <object class="mr-2" data="./dist/images/icons/money_wallet_tab bar_pardakht.svg" type=""></object>
@@ -1202,7 +1210,7 @@
 </div>
 
 <div class="bottom-sheet pb-5" id="card-number">
-    <span class="bottom-sheet-closer">×</span>
+
         <div class=" form-group d-flex flex-row-reverse align-items-center w-100 justify-content-end">
             <button class="btn btn-dark-blue form-control-addon">
                 <img src="./dist/images/icons/close.svg" alt="">
@@ -1250,7 +1258,7 @@
 </div>
 
 <div class="bottom-sheet pb-5" id="card-number2">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class=" form-group d-flex flex-row-reverse align-items-center w-100 justify-content-end">
         <button class="btn btn-dark-blue form-control-addon">
             تایید
@@ -1270,7 +1278,7 @@
 </div>
 
 <div class="bottom-sheet pb-5" id="search-city">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class=" form-group d-flex flex-row-reverse align-items-center w-100 justify-content-end">
         <button class="btn btn-dark-blue form-control-addon">
             <img src="./dist/images/icons/close.svg" alt="">
@@ -1289,13 +1297,13 @@
 </div>
 
 <div class="bottom-sheet p-0 pb-5" id="calendar">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class="calendar-header ">
         <p class="text-pink text-sm mb-0">تاریخ امروز</p>
         <div class="calendar-value-wrapper">
             <img src="./dist/images/icons/calendar.svg" alt="">
             <input class="calendar-value d-flex" disabled id="calendarValue">
-            <button class="btn btn-primary form-control-addon mt-n3 mr-3">
+            <button class="btn btn-primary form-control-addon mt-n3 mr-3" onclick="closeBottomSheet()">
                 <img src="./dist/images/icons/close.svg" alt="">
             </button>
         </div>
@@ -1304,15 +1312,15 @@
 </div>
 
 <div class="bottom-sheet p-0 pb-5" id="invited-friends">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class="w-100 d-flex align-items-center justify-content-between m-3">
-        <button class="btn btn-dark-blue form-control-addon ml-3">
+        <button class="btn btn-dark-blue form-control-addon ml-3" onclick="closeBottomSheet()">
             <img src="./dist/images/icons/close.svg" alt="">
         </button>
         <span class="text-lg text-white text-sm mr-3">لیست دوستان دعوت شده</span>
     </div>
     <div class="border-bottom border-light w-95"></div>
-    <div class="w-100 d-flex flex-column align-items-center">
+    <div class="w-100 d-flex flex-column align-items-center bottom-sheet-items">
         <div class="w-100 d-flex align-items-center justify-content-between p-3 border-bottom border-light">
             <span class="text-primary d-flex">
                 <span>۹۸/۴/۱ - ۲۲:۴۰</span>
@@ -1373,9 +1381,9 @@
 </div>
 
 <div class="bottom-sheet p-0 pb-5" id="passengers">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class="w-100 d-flex align-items-center justify-content-between m-3">
-        <button class="btn btn-dark-blue form-control-addon ml-3">
+        <button class="btn btn-dark-blue form-control-addon ml-3" onclick="closeBottomSheet()">
             تایید
         </button>
         <span class="text-lg text-white text-sm mr-3">
@@ -1413,9 +1421,9 @@
 </div>
 
 <div class="bottom-sheet p-0 pb-5" id="filters">
-    <span class="bottom-sheet-closer">×</span>
+
     <div class="w-100 d-flex align-items-center justify-content-between m-3">
-        <button class="btn btn-dark-blue form-control-addon ml-3">
+        <button class="btn btn-dark-blue form-control-addon ml-3" onclick="closeBottomSheet()">
             تایید
         </button>
         <span class="text-lg text-white text-sm mr-3">
@@ -1452,13 +1460,13 @@
             <div class="col d-flex align-items-center flex-row-reverse">
                 <span class="text-white">  تا</span>
                 <div class="material-input-wrapper w-100">
-                    <input class="material-input input-dark-blue w-100 datepicker" type="text">
+                    <input class="material-input input-dark-blue w-100 datepicker datepicker-to" type="text">
                 </div>
             </div>
             <div class="col d-flex align-items-center flex-row-reverse">
                 <span class="text-white">از </span>
                 <div class="material-input-wrapper w-100">
-                    <input class="material-input input-dark-blue w-100 datepicker" type="text">
+                    <input class="material-input input-dark-blue w-100 datepicker datepicker-from" type="text">
                 </div>
             </div>
         </div>
@@ -2090,11 +2098,11 @@
         </li>
     </ul>
 </div>
-<div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+<div class="tab-content" id="myTabContent" data-nav="myTab">
+    <div class="tab-pane show active" id="first" role="tabpanel" aria-labelledby="first-tab">
         <h1>tabFirst Content</h1>
     </div>
-    <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+    <div class="tab-pane" id="second" role="tabpanel" aria-labelledby="second-tab">
         <h1>tabSecond Content </h1>
     </div>
 </div>

@@ -67,6 +67,11 @@
                                 color: white;
                             }
                         }
+                        &.disabled {
+                            span {
+                                color: rgba($white, 0.3);
+                            }
+                        }
                     }
                 }
             }

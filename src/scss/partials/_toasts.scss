@@ -1,5 +1,5 @@
 .toast {
-    display: flex;
+    display: flex !important;
     align-items: center;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -7,16 +7,33 @@
     font-size: $font-size-sm;
     border-radius: $border-radius;
     border-left: 3px solid;
+    max-width: 300px;
     background: $toast-bg-color;
     backdrop-filter:none !important;
     transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    position: fixed;
+    left: calc((100vw - 300px) / 2);
     &.show {
-        display: flex;
-        .toast-body {
-            .toast-message {
-                visibility: visible;
-            }
-        }
+        visibility: visible; /* Show the toast */
+        /* Add animation: Take 0.5 seconds to fade in and out the toast.
+        However, delay the fade out process for 2.5 seconds */
+        animation: fadein 0.5s, fadeout 0.5s 5s;
+    }
+    &.show {
+        visibility: visible; /* Show the toast */
+        /* Add animation: Take 0.5 seconds to fade in and out the toast.
+        However, delay the fade out process for 2.5 seconds */
+        animation: fadein 0.5s, fadeout 0.5s 5s;
+    }
+    &-top {
+        top: 10px;
+    }
+    &-center {
+        top: calc(50vh - 25px);
+    }
+    &-bottom {
+        bottom: 10px;
     }
     .toast-body {
         text-align: right;
@@ -28,8 +45,6 @@
         height: 100%;
         padding: 0;
         .toast-message {
-            visibility: hidden;
-            animation: fadeout 0.5s 1s;
             color: white;
             margin-right: 5px;
         }
@@ -74,4 +89,16 @@
             border-left-color: $value;
         }
     }
+}
+
+/* Animations to fade the toast and out */
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0; visibility: hidden}
+    to {bottom: 30px; opacity: 1; visibility: visible}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1; visibility: visible}
+    to {bottom: 0; opacity: 0; visibility: hidden}
 }

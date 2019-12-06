@@ -55,6 +55,45 @@ $('document').ready(function() {
             }
         },
     });
+    var to, from;
+    to = $(".datepicker-to").persianDatepicker({
+        inline: false,
+        altFormat: 'YY/MM/DD',
+        initialValue: false,
+        toolbox:{
+            calendarSwitch:{
+                enabled: false
+            }
+        },
+        onSelect: function (unix) {
+            to.touched = true;
+            if (from && from.options && from.options.maxDate != unix) {
+                var cachedValue = from.getState().selected.unixDate;
+                from.options = {maxDate: unix};
+                if (from.touched) {
+                    from.setDate(cachedValue);
+                }
+            }
+        }
+    });
+    from = $(".datepicker-from").persianDatepicker({
+        inline: false,
+        altFormat: 'YY/MM/DD',
+        initialValue: false,
+        toolbox:{
+            calendarSwitch:{
+                enabled: false
+            }
+        },
+        onSelect: function (unix) {
+            from.touched = true;
+            if (to && to.options && to.options.minDate != unix) {
+                var cachedValue = to.getState().selected.unixDate;
+                to.options = {minDate: unix};
+                to.setDate(unix);
+            }
+        }
+    });
     $('.list-group .list-group-item').on('click', function () {
         $(this).siblings('.list-group-item').removeClass('expand');
         $(this).toggleClass('expand');
@@ -89,6 +128,9 @@ $('document').ready(function() {
         nativeOnDevice: [],
         floatWidth: 5000
     });
+    setTimeout(function () {
+        $('.toast').addClass('show')
+    }, 3000)
 });
 function closeMenu() {
     $('body').removeClass('has-menu');
